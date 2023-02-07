@@ -13,11 +13,11 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 </div>
 
 <div align="center">
-<img src="./pics/photo_pairs/cam/c_01.png" alt="photo" width="18%" />
-<img src="./pics/photo_pairs/cam/c_02.png" alt="photo" width="18%" />
-<img src="./pics/photo_pairs/cam/c_03.png" alt="photo" width="18%" />
-<img src="./pics/photo_pairs/cam/c_04.png" alt="photo" width="18%" />
-<img src="./pics/photo_pairs/cam/c_05.png" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/cam/c_01.jpg" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/cam/c_02.jpg" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/cam/c_03.jpg" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/cam/c_04.jpg" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/cam/c_05.jpg" alt="photo" width="18%" />
 <img src="./pics/photo_pairs/map/m_01.jpg" alt="photo" width="18%" />
 <img src="./pics/photo_pairs/map/m_02.jpg" alt="photo" width="18%" />
 <img src="./pics/photo_pairs/map/m_03.jpg" alt="photo" width="18%" />
