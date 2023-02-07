@@ -4,12 +4,12 @@
 ## Authors: 
 Yuanzhi Liu, Yujia Fu, Minghui Qin, Yufeng Xu, Baoxin Xu, et al.
 
-<div align="center">
+<!-- <div align="center">
 <img src="./pics/bev_map/bev_whole.png" alt="photo" width="60%" />
-</div>
+</div> -->
 <div align="center">
-<img src="./pics/robot_pics/1.jpg" alt="photo" width="48%" />
-<img src="./pics/robot_pics/3.jpg" alt="photo" width="48%" />
+<img src="./pics/robot_pics/1.jpg" alt="photo" width="45%" />
+<img src="./pics/robot_pics/3.jpg" alt="photo" width="45%" />
 </div>
 
 ## Abstract: 
@@ -26,6 +26,11 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 <img src="./pics/photo_pairs/map/m_03.jpg" alt="photo" width="18%" />
 <img src="./pics/photo_pairs/map/m_04.jpg" alt="photo" width="18%" />
 <img src="./pics/photo_pairs/map/m_05.jpg" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/sem/s_01.png" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/sem/s_02.png" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/sem/s_03.png" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/sem/s_04.png" alt="photo" width="18%" />
+<img src="./pics/photo_pairs/sem/s_05.png" alt="photo" width="18%" />
 </div>
 
 ## Main Contributions: 
@@ -39,23 +44,26 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 <img src="./pics/pulse_sync.png" alt="photo" width="60%" />
 </div>
 
-<!-- ## Ground Truth Map -->
+## Ground Truth Map
+<div align="center">
+<img src="./pics/bev_map/bev_whole.png" alt="photo" width="48%" />
+</div>
 
 <!-- <div align="center">
 <img src="./pics/leica_workphoto.png" alt="photo" width="80%" />
 </div> -->
 
 ## Semantic Dense Annotations
-All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abili- ties of robust motion estimation and semantic map paintings.
+All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map paintings.
 <div align="center">
 <img src="./gifs/semantics/1_JPEG_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/1_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/2_JPEG_960×600.gif" alt="video" width="48%" />
+<!-- <img src="./gifs/semantics/2_JPEG_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/2_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/3_JPEG_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/3_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/4_JPEG_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/4_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/5_JPEG_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/5_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/5_SegmentationVisualization_960×600.gif" alt="video" width="48%" /> -->
 </div>
