@@ -8,7 +8,7 @@ Yuanzhi Liu, Yujia Fu, Minghui Qin, Yufeng Xu, Baoxin Xu, et al.
 <img src="./pics/bev_map/bev_whole.png" alt="photo" width="60%" />
 </div> -->
 <div align="center">
-<img src="./pics/robot_pics/1.jpg" alt="photo" width="45%" />
+<img src="./pics/robot_pics/1.jpg" alt="photo" width="45%" hspace="10"/>
 <img src="./pics/robot_pics/3.jpg" alt="photo" width="45%" />
 </div>
 
@@ -45,7 +45,7 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 </div>
 
 ## Ground Truth Map
-<div align="center">
+<div align="left">
 <img src="./pics/bev_map/bev_whole.png" alt="photo" width="48%" />
 </div>
 
@@ -56,14 +56,20 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 ## Semantic Dense Annotations
 All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map paintings.
 <div align="center">
-<img src="./gifs/semantics/1_JPEG_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/1_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
-<!-- <img src="./gifs/semantics/2_JPEG_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/2_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/3_JPEG_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/3_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/4_JPEG_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/4_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/5_JPEG_960×600.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/5_SegmentationVisualization_960×600.gif" alt="video" width="48%" /> -->
+<img src="./gifs/semantics/new/JPEG_480×300.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/new/SegmentationVisualization_480×300.gif" alt="video" width="48%" />
+<!-- <img src="./gifs/semantics/raw/2_JPEG_960×600.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/raw/2_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/raw/3_JPEG_960×600.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/raw/3_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/raw/4_JPEG_960×600.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/raw/4_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/raw/5_JPEG_960×600.gif" alt="video" width="48%" />
+<img src="./gifs/semantics/raw/5_SegmentationVisualization_960×600.gif" alt="video" width="48%" /> -->
 </div>
+
+## Toolbox
+Our dataset is captured in rosbag and raw formats. For the convenience of usage, we have provided a toolbox to convert between different structures.
+
+## Acknowledgement
+The authors would like to thank the colleagues from Tongji University and Sun Yat-sen University for their assistances in the rigorous survey works and post-processings, especially Xiaohang Shao, Chen Chen, and Kunhua Liu. We also thank A/Prof. Hangbin Wu for his guidance in data collection. Besides, we acknowledge Grace Xu from Livox for the support on AVIA LiDAR, and we appreciate the colleagues of Appen for their professional work in visual semantic annotations. Yuanzhi Liu would like to thank Jingxin Dong for her job-loggings and photographs during our data collection.
