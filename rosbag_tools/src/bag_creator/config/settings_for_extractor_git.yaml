@@ -1,0 +1,18 @@
+# down-sample of dataset frequency:
+down_sample_ratio: 20
+
+# bag absolute path
+input_bag_path: /media/yaya/p3600/
+bag_name: timed_1018_13.bag
+# output folder path (must exist, for image saving):
+output_folder_path: /media/yaya/p3600/image_test/
+output_image_prefix: image_
+output_image_format: .png
+
+# cam topics in rosbag:
+left_cam_topic: /dalsa_gray_0/image_raw
+right_cam_topic: /dalsa_gray_1/image_raw
+
+# rgb cam topics in rosbag
+left_cam_topic_rgb: /dalsa_rgb_0/image_raw
+right_cam_topic_rgb: /dalsa_rgb_1/image_raw
