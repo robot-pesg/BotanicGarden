@@ -62,8 +62,8 @@ GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
 <img src="./pics/bev_map/bev_whole.png" alt="photo" width="48%" />
 </div>
 
-<div align="center">
-<img src="./pics/fig6.png" alt="photo" width="80%" />
+<div align="left">
+<img src="./pics/scan_workphoto.jpg" alt="photo" height="200" />
 </div>
 
 <!-- <div align="center">
