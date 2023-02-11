@@ -63,8 +63,8 @@ In a precise robot system with rich sensors and multi-hosts, time synchronizatio
 
 ## Ground Truth Map
 <div align="left">
-<img src="./pics/bev_map/bev_whole.png" alt="photo" height="250" />
-<img src="./pics/bev_map/fig1-4.png" alt="photo" height="250" />
+<img src="./pics/bev_map/bev_whole.png" alt="photo" height="200" />
+<img src="./pics/bev_map/fig1-4.png" alt="photo" height="200" />
 </div>
 To ensure the global accuracy, we have not used any mobile-mapping based techniques (e.g., SLAM), instead we employ a tactical-grade stationary 3D laser scanner and conduct a qualified surveying and mapping job with professional colleagues from the College of Surveying and Geo-Informatics, Tongji University. The scanner is the RTC360 from Leica, which can output very dense and colored point cloud with a 130m scan radius and mm-level ranging accuracy, as shown the specifications in above table. The survey job takes in total 20 workdays and more than 900 individual scans, and get an accuracy of 11mm std. from Leica's report.
 <div align="left">
