@@ -7,15 +7,15 @@
 <!-- <div align="center">
 <img src="./pics/bev_map/bev_whole.png" alt="photo" width="60%" />
 </div> -->
-<div align="center">
-<img src="./pics/robot_pics/fig1-2.jpg" alt="photo" height="200" hspace="10"/>
+<div align="left">
+<img src="./pics/robot_pics/fig1-2.jpg" alt="photo" height="200" hspace="5"/>
 <img src="./pics/robot_pics/fig1-3.png" alt="photo" height="200" />
 </div>
 
 ## Abstract: 
 The rapid developments of mobile robotics and autonomous navigation over the years are largely empowered by public datasets for testing and upgradation, such as SLAM and localization tasks. Impressive demos and benchmark results have arisen, indicating the establishment of a mature technical framework. However, from the real-world deployments point of view, there are still critical defects of robustness in challenging environments, especially in large-scale, GNSS-denied, textural-monotonous, and unstructured scenarios. To meet the urgent validation demands in such scope, we build a novel challenging robot navigation dataset in a large botanic garden of more than 48000m2. Comprehensive sensors are employed, including high-res/rate stereo Gray&RGB cameras, rotational and forward 3D LiDARs, and low-cost and industrial-grade IMUs, all of which are well calibrated and hardware-synchronized to nanoseconds accuracy. An all-terrain wheeled robot is configured to mount the sensor suite and providing odometry data. A total of 32 long and short sequences of 2.3 million images are collected, covering scenes of thick woods, riversides, narrow paths, bridges, and grasslands that rarely appeared in previous resources. Excitedly, both highly-accurate ego-motions and 3D map ground truth are provided, along with fine-annotated vision semantics. Our goal is to contribute a high-quality dataset to advance robot navigation and sensor fusion research to a higher level.
 
-<div align="center">
+<div align="left">
 <img src="./pics/photo_pairs/cam/c_01.jpg" alt="photo" width="18%" />
 <img src="./pics/photo_pairs/cam/c_02.jpg" alt="photo" width="18%" />
 <img src="./pics/photo_pairs/cam/c_03.jpg" alt="photo" width="18%" />
@@ -80,9 +80,9 @@ Size/GB|66.8|49.0|59.8|83.1|71.0|13.0|20.9
 
 ## Semantic Dense Annotations
 All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map paintings.
-<div align="center">
-<img src="./gifs/semantics/new/JPEG_480×300.gif" alt="video" width="48%" />
-<img src="./gifs/semantics/new/SegmentationVisualization_480×300.gif" alt="video" width="48%" />
+<div align="left">
+<img src="./gifs/semantics/new/JPEG_480×300.gif" alt="video" width="40%" />
+<img src="./gifs/semantics/new/SegmentationVisualization_480×300.gif" alt="video" width="40%" />
 <!-- <img src="./gifs/semantics/raw/2_JPEG_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/raw/2_SegmentationVisualization_960×600.gif" alt="video" width="48%" />
 <img src="./gifs/semantics/raw/3_JPEG_960×600.gif" alt="video" width="48%" />
@@ -99,5 +99,5 @@ Our dataset is captured in rosbag and raw formats. For the convenience of usage,
 ## Acknowledgement
 The authors would like to thank the colleagues from Tongji University and Sun Yat-sen University for their assistances in the rigorous survey works and post-processings, especially Xiaohang Shao, Chen Chen, and Kunhua Liu. We also thank A/Prof. Hangbin Wu for his guidance in data collection. Besides, we acknowledge Grace Xu from Livox for the support on AVIA LiDAR, and we appreciate the colleagues of Appen for their professional work in visual semantic annotations. Yuanzhi Liu would like to thank Jingxin Dong for her job-loggings and photographs during our data collection.
 
-## Fundings
+## Funding
 This work was supported by National Key R&D Program of China under Grant 2018YFB1305005.
