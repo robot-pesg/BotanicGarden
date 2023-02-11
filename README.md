@@ -38,6 +38,10 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 - We employed comprehensive sensors, including high-res and high-rate stereo Gray&RGB cameras, rotational and forward-facing 3D LiDARs, and low-cost and industrial-grade IMUs, supporting a wide range of applications. By elaborate development of the integrated system, we have achieved synchronization of nanoseconds accuracy. Both the sensors and sync-quality are at top-level of this field.
 - We provide both highly-accurate 3D map and trajectories ground truth by dedicated surveying works and advanced map-based localization algorithm. We also provide dense vision semantics labeled by experienced annotators. This is the first robot navigation dataset that provides such all-rounded and high-quality reference data.
 
+<div align="left">
+<img src="./gifs/sequences/1005_00.gif" alt="video" width="80%" />
+</div>
+
 ## Sensor Setup
 
 Sensor/Device|Model|Specification
@@ -101,3 +105,6 @@ The authors would like to thank the colleagues from Tongji University and Sun Ya
 
 ## Funding
 This work was supported by National Key R&D Program of China under Grant 2018YFB1305005.
+
+## Contact
+Yuanzhi Liu: lyzrose@sjtu.edu.cn
