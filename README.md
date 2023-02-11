@@ -8,7 +8,7 @@
 <img src="./pics/bev_map/bev_whole.png" alt="photo" width="60%" />
 </div> -->
 <div align="center">
-<img src="./pics/robot_pics/1.jpg" alt="photo" width="45%" hspace="10"/>
+<img src="./pics/robot_pics/fig1-2.jpg" alt="photo" width="45%" hspace="10"/>
 <img src="./pics/robot_pics/fig1-3.png" alt="photo" width="45%" />
 </div>
 
