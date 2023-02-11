@@ -9,7 +9,7 @@
 </div> -->
 <div align="center">
 <img src="./pics/robot_pics/1.jpg" alt="photo" width="45%" hspace="10"/>
-<img src="./pics/robot_pics/3.jpg" alt="photo" width="45%" />
+<img src="./pics/robot_pics/fig1-3.png" alt="photo" width="45%" />
 </div>
 
 ## Abstract: 
