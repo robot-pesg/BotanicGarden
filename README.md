@@ -8,8 +8,8 @@
 <img src="./pics/bev_map/bev_whole.png" alt="photo" width="60%" />
 </div> -->
 <div align="center">
-<img src="./pics/robot_pics/fig1-2.jpg" alt="photo" width="45%" hspace="10"/>
-<img src="./pics/robot_pics/fig1-3.png" alt="photo" width="45%" />
+<img src="./pics/robot_pics/fig1-2.jpg" alt="photo" height="200" hspace="10"/>
+<img src="./pics/robot_pics/fig1-3.png" alt="photo" height="200" />
 </div>
 
 ## Abstract: 
@@ -70,6 +70,13 @@ GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
 <!-- <div align="center">
 <img src="./pics/leica_workphoto.png" alt="photo" width="80%" />
 </div> -->
+
+## Sample Sequences
+Stat/Sequence|1005-00|1005-01|1005-07|1006-01|1008-03|1018-00|1018-13
+:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:
+Duration/s|583.78|458.91|541.52|738.70|620.29|131.12|194.36
+Distance/m|598.46|477.92|587.52|761.41|747.26|114.12|199.93
+Size/GB|66.8|49.0|59.8|83.1|71.0|13.0|20.9
 
 ## Semantic Dense Annotations
 All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map paintings.
