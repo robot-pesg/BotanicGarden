@@ -87,7 +87,7 @@ All data are provided in LabelMe format and support future reproducing. It is ex
 </div>
 
 ## Toolbox
-Our dataset is captured in rosbag and raw formats. For the convenience of usage, we have provided a toolbox to convert between different structures.
+Our dataset is captured in rosbag and raw formats. For the convenience of usage, we have provided a toolbox to convert between different structures, check the [rosbag_tools](./rosbag_tools/) folder for usage.
 
 ## Acknowledgement
 The authors would like to thank the colleagues from Tongji University and Sun Yat-sen University for their assistances in the rigorous survey works and post-processings, especially Xiaohang Shao, Chen Chen, and Kunhua Liu. We also thank A/Prof. Hangbin Wu for his guidance in data collection. Besides, we acknowledge Grace Xu from Livox for the support on AVIA LiDAR, and we appreciate the colleagues of Appen for their professional work in visual semantic annotations. Yuanzhi Liu would like to thank Jingxin Dong for her job-loggings and photographs during our data collection.
