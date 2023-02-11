@@ -38,6 +38,19 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 - We employed comprehensive sensors, including high-res and high-rate stereo Gray&RGB cameras, rotational and forward-facing 3D LiDARs, and low-cost and industrial-grade IMUs, supporting a wide range of applications. By elaborate development of the integrated system, we have achieved synchronization of nanoseconds accuracy. Both the sensors and sync-quality are at top-level of this field.
 - We provide both highly-accurate 3D map and trajectories ground truth by dedicated surveying works and advanced map-based localization algorithm. We also provide dense vision semantics labeled by experienced annotators. This is the first robot navigation dataset that provides such all-rounded and high-quality reference data.
 
+## Sensor Setup
+
+Sensor/Device|Model|Specification
+:--:|:--:|:--:
+Gray Stereo | DALSA M1930 | 1920*1200, 2/3", 71°×56°FoV, 40Hz
+RGB Stereo | DALSA C1930 | 1920*1200, 2/3", 71°×56°FoV, 40Hz
+LiDAR | Velodyne VLP16 | 16C, 360°×30°FoV, ±3cm@100m, 10Hz
+MEMS LiDAR | Livox AVIA | 70°×77°FoV, ±2cm@200m, 10Hz
+D-GNSS/INS | Xsens Mti-680G | 9-axis, 400Hz, GNSS not in use
+Consumer IMU | BMI088 | 6-axis, 200Hz, Livox built-in
+Wheel Encoder | Scout V1.0 | 4WD, 3-axis, 200Hz
+GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
+
 ## Time Synchronization
 
 <div align="left">
