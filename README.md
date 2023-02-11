@@ -82,6 +82,12 @@ Duration/s|583.78|458.91|541.52|738.70|620.29|131.12|194.36
 Distance/m|598.46|477.92|587.52|761.41|747.26|114.12|199.93
 Size/GB|66.8|49.0|59.8|83.1|71.0|13.0|20.9
 
+## Ground Truth Trajectories
+<div align="left">
+<img src="./pics/gt_poses/fig7-1.png" alt="photo" height="200" hspace="5"/>
+<img src="./pics/gt_poses/fig7-2.png" alt="photo" height="200" />
+</div>
+
 ## Semantic Dense Annotations
 All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map paintings.
 <div align="left">
