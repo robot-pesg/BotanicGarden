@@ -113,4 +113,4 @@ The authors would like to thank the colleagues from Tongji University and Sun Ya
 This work was supported by National Key R&D Program of China under Grant 2018YFB1305005.
 
 ## Contact
-Yuanzhi Liu: lyzrose@sjtu.edu.cn
+This dataset is provided for academic purposes. If you meet some technical problems, please open an issue or contact <Yuanzhi Liu: lyzrose@sjtu.edu.cn>.
