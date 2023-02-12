@@ -87,7 +87,7 @@ rosbag|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_liu
 imagezip|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_liu_goldensen_onmicrosoft_com/ErLnfSIwkQ1Gl7-1R5KOKfkBJ-yOn6i6xu4wqJBjC9tm_g?e=kIKnXM)|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_liu_goldensen_onmicrosoft_com/EhjXa_7OTeZOpL7Io0cX8tgB39yEAwmLoLWC5yLt9yz3sw?e=rT2s44)|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_liu_goldensen_onmicrosoft_com/EjazsKGZFNFHly72gfmde5UBvFTIfptaIKNawaNhzluPfw?e=cDxN3R)|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_liu_goldensen_onmicrosoft_com/EonbrulnnoZEkRy6eJddszwBI2HOXUOWZlsMaXjbcyQy5Q?e=duz0Bv)|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_liu_goldensen_onmicrosoft_com/Eup7na0wUEVCoDw4fXRY_WYB3ntGomPcNvkjZmJNubmI2A?e=y0S9Ij)|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_liu_goldensen_onmicrosoft_com/EgMweUZ0JzpIv4skJBqIVAcBLtjuoJgih_nbTQdCl5FxIw?e=uEeGd1)|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_liu_goldensen_onmicrosoft_com/Eqk4KUIjQTlGvfKyPKgWPiQBvnb5pFS_5XVlRVGwP4RARg?e=ddXR5V)
 
 The rostopics and corresponding message types are listed below:
-ROS Topic|Message Type|Description
+<!-- ROS Topic|Message Type|Description
 :--:|:--:|:--:
 /dalsa/rgb0/image_raw|sensor_msgs/Image|Left RGB camera
 /dalsa/rgb1/image_raw|sensor_msgs/Image|Right RGB camera
@@ -97,7 +97,18 @@ ROS Topic|Message Type|Description
 /livox/lidar|livox_ros_driver/CustomMsg|Livox AVIA LiDAR
 /imu/data|sensor_msgs/Imu|Xsens IMU
 /livox/imu|sensor_msgs/Imu|Livox BMI088 IMU
-/gt/poses|geometry_msgs/PoseStamped|Ground truth poses
+/gt/poses|geometry_msgs/PoseStamped|Ground truth poses -->
+ROS Topic|Message Type|Description
+:--:|:--:|:--:
+/dalsa_rgb/left/image_raw|sensor_msgs/Image|Left RGB camera
+/dalsa_rgb/right/image_raw|sensor_msgs/Image|Right RGB camera
+/dalsa_gray/left/image_raw|sensor_msgs/Image|Left Gray camera
+/dalsa_gray/right/image_raw|sensor_msgs/Image|Right Gray camera
+/velodyne_points|sensor_msgs/PointCloud2|Velodyne VLP16 LiDAR
+/livox/lidar|livox_ros_driver/CustomMsg|Livox AVIA LiDAR
+/imu/data|sensor_msgs/Imu|Xsens IMU
+/livox/imu|sensor_msgs/Imu|Livox BMI088 IMU
+/gt_poses|geometry_msgs/PoseStamped|Ground truth poses
 
 ## Ground Truth Trajectories
 <div align="left">
