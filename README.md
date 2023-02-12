@@ -77,7 +77,8 @@ Some survey photos and registration works:
 <img src="./pics/leica_workphoto.png" alt="photo" width="80%" />
 </div> -->
 
-## Sample Sequences
+## Data Sequences
+Our dataset consists of 32 data sequences in total. At present, we have comprehensively evaluated the state-of-the-arts(SOTA) on 7 sample sequences, the statistics and download links are listed below. More sequences can be requested from Yuanzhi Liu via E-mail.
 Stat/Sequence|1005-00|1005-01|1005-07|1006-01|1008-03|1018-00|1018-13
 :--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:
 Duration/s|583.78|458.91|541.52|738.70|620.29|131.12|194.36
