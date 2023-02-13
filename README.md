@@ -277,7 +277,7 @@ To simplify the user testing procedure, We have provided the calibration and con
 
 Testing of LVI-SAM on 1005-00 sequence:
 <div align="left">
-<img src="./gifs/sota/lvi_1005_00_cut_short.gif" alt="video" height="200" />
+<img src="./gifs/sota/lvi_1005_00_cut_short.gif" alt="video" width="80%" />
 </div>
 
 
