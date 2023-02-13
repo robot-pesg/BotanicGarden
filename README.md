@@ -118,7 +118,7 @@ ROS Topic|Message Type|Description
 </div>
 
 ## SOTA Evaluation
-We have tested the performance of visual (ORB-SLAM3), visual-inertial (ORB-SLAM3, VINS-Mono), LiDAR (LOAM), LiDAR-inertial (Fast-LIO2), and visual-LiDAR-inertial fusion (LVI-SAM, R3LIVE) systems on 7 sample sequences, the evaluation statistics are listed below.
+We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)), visual-inertial ([ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3), [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)), LiDAR ([LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM)), LiDAR-inertial ([Fast-LIO2](https://github.com/hku-mars/FAST_LIO)), and visual-LiDAR-inertial fusion ([LVI-SAM](https://github.com/TixiaoShan/LVI-SAM), [R3LIVE](https://github.com/hku-mars/r3live)) systems on the above 7 sample sequences, as listed below the evaluation statistics.
 
 <table>
     <tr> <!-- 第1行数据 -->
@@ -271,6 +271,15 @@ We have tested the performance of visual (ORB-SLAM3), visual-inertial (ORB-SLAM3
 
 <!-- Method/Metric|1005-00|1005-01|1005-07|1006-01|1008-03|1018-00|1018-13
 :--:|:--:|:--:|:--:|:--:|:--:|:--:|:--: -->
+
+## Config Files
+To simplify the user testing procedure, We have provided the calibration and config files of the State-Of-The-Arts, which can be accessed in [calib](./calib/) and [config](./config/) folders.
+
+Testing of LVI-SAM on 1005-00 sequence:
+<div align="left">
+<img src="./gifs/sota/lvi_1005_00_cut_short.gif" alt="video" height="200" />
+</div>
+
 
 ## Semantic Dense Annotations
 All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map paintings.
