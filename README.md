@@ -149,7 +149,7 @@ We have tested the performance of visual, visual-inertial, LiDAR, LiDAR-inertial
         <td style="text-align:center"> ATE/m </td>  <!-- 第15列 -->
     </tr>
     <tr> <!-- 第3行数据 -->
-        <td style="text-align:center"> ORB-SLAM3(stereo) </td>  <!-- 第1列 -->
+        <td style="text-align:center"> ORB-SLAM3(S) </td>  <!-- 第1列 -->
         <td style="text-align:center"> X </td>  <!-- 第2列 -->
         <td style="text-align:center"> X </td>  <!-- 第3列 -->
         <td style="text-align:center"> 5.586 NC </td>  <!-- 第4列 -->
@@ -166,7 +166,7 @@ We have tested the performance of visual, visual-inertial, LiDAR, LiDAR-inertial
         <td style="text-align:center"> 2.818 NC </td>  <!-- 第15列 -->
     </tr>
     <tr> <!-- 第4行数据 -->
-        <td style="text-align:center"> ORB-SLAM3(stereo-imu) </td>  <!-- 第1列 -->
+        <td style="text-align:center"> ORB-SLAM3(SI) </td>  <!-- 第1列 -->
         <td style="text-align:center"> 4.386 NC </td>  <!-- 第2列 -->
         <td style="text-align:center"> 5.511 NC </td>  <!-- 第3列 -->
         <td style="text-align:center"> 4.808 NC </td>  <!-- 第4列 -->
