@@ -59,6 +59,9 @@ Wheel Encoder | Scout V1.0 | 4WD, 3-axis, 200Hz
 GT 3D Scanner | Leica RTC360 | 130m range, 1mm+10ppm accuracy
 
 ## Time Synchronization
+<div align="left">
+<img src="./pics/robot_pics/sync_final.bmp" alt="photo" width="80%" />
+</div>
 In a precise robot system with rich sensors and multi-hosts, time synchronization is extremely vital to eliminate perception delay and ensure navigation accuracy. Towards a high-quality dataset, we have taken very special cares on this problem. Our synchronization is based on a self-designed hardware trigger&timing board and a PTP-based network, as illustrated in the topological graph. The trigger and timing board is implemented by a compact MCU. It is programmed to produce three channels of pulses 1Hz-40Hz-400Hz in the very same phases. The 1Hz channel (pulse per second, PPS) is used for the synchronization of VLP-16 and AVIA accompanied with GPRMC signals; The 40Hz signal is used to trigger the cameras; And the 400Hz signal is used for triggering the Xsens IMU. The UTC time is maintained by MCU based on its onboard oscillator. Note that, to maintain the timing smoothness, we will never interrupt the MCU clock during the collections, instead, an UTC stamp will be conferred at the begin of each course-day via NTP or GNSS timing. So far, the LiDAR-camera-IMU chain has been completely synchronized in hardware, which can achieve nanoseconds accuracy, as can be inspected in the oscilloscope shot from the rising edge offset.
 <div align="left">
 <img src="./pics/pulse_sync.png" alt="photo" height="220" />
