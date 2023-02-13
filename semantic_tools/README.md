@@ -83,5 +83,8 @@ pip3 install PyQt5
 
 ## Acknowledgments
 
--https://github.com/veraposeidon/labelme2Datasets
--https://github.com/XCRobert/Labelme2Coco
+
+[labelme2Datasets](https://github.com/veraposeidon/labelme2Datasets)
+
+[Labelme2Coco](https://github.com/XCRobert/Labelme2Coco)
+
