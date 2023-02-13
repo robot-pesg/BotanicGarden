@@ -303,10 +303,12 @@ All data are provided in LabelMe format and support future reproducing. It is ex
 </div>
 
 ## Toolbox
-### Format Conversion
+### Rosbag Conversion
 Our dataset is captured in rosbag and raw formats. For the convenience of usage, we have provided a toolbox to convert between different structures, check the [rosbag_tools](./rosbag_tools/) folder for usage.
+### Semantic Conversion
+The semantics are labelled in LabelMe json format. For the convenience of usage, we have provided a toolbox to convert to PASCAL VOC and MS COCO formats, check the [semantic_tools](./semantic_tools/) folder for usage.
 ### Evaluation
-We recommend to use the open-source tool [EVO](https://github.com/MichaelGrupp/evo) for algorithm evaluation. Our Ground truth Poses are provided in TUM format consisting of timestamps, translations x-y-z, and quaternions x-y-z-w, which are concise and enable trajactory alignment based on time correspondances.
+We recommend to use the open-source tool [EVO](https://github.com/MichaelGrupp/evo) for algorithm evaluation. Our Ground truth Poses are provided in TUM format consisting of timestamps, translations x-y-z, and quaternions x-y-z-w, which are concise and enable trajactory alignment based on time correspondances. Note that, the GT poses are tracking the VLP16 frame, so you must transform your poses to VLP16 side by hand-eye formula ***AX=XB*** before evaluation.
 
 ## Acknowledgement
 The authors would like to thank the colleagues from Tongji University and Sun Yat-sen University for their assistances in the rigorous survey works and post-processings, especially Xiaohang Shao, Chen Chen, and Kunhua Liu. We also thank A/Prof. Hangbin Wu for his guidance in data collection. Besides, we acknowledge Grace Xu from Livox for the support on AVIA LiDAR, and we appreciate the colleagues of Appen for their professional work in visual semantic annotations. Yuanzhi Liu would like to thank Jingxin Dong for her job-loggings and photographs during our data collection.
