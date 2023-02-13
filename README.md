@@ -117,8 +117,8 @@ ROS Topic|Message Type|Description
 <img src="./pics/gt_poses/fig7-2.png" alt="photo" height="200" />
 </div>
 
-## Evaluation of SOTAs and Config-Files
-We have tested the performance of visual, visual-inertial, LiDAR, LiDAR-inertial, and visual-LiDAR-inertial fusion algorithms, the evaluation statistics are listed and the configs can be accessed below.
+## SOTA Evaluation
+We have tested the performance of visual (ORB-SLAM3), visual-inertial (ORB-SLAM3, VINS-Mono), LiDAR (LOAM), LiDAR-inertial (Fast-LIO2), and visual-LiDAR-inertial fusion (LVI-SAM, R3LIVE) systems on 7 sample sequences, the evaluation statistics are listed below.
 
 <table>
     <tr> <!-- 第1行数据 -->
