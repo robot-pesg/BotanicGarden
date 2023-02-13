@@ -81,7 +81,7 @@ pip3 install PyQt5
 
 `python voc_xml2coco_json.py test/test_voc train test/test_coco train.json`
 
-##Acknowledgments
+## Acknowledgments
 
-https://github.com/veraposeidon/labelme2Datasets
-https://github.com/XCRobert/Labelme2Coco
+-https://github.com/veraposeidon/labelme2Datasets
+-https://github.com/XCRobert/Labelme2Coco
