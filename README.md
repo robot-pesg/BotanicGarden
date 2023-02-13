@@ -43,6 +43,9 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 </div>
 
 ## Sensor Setup
+<div align="left">
+<img src="./pics/robot_pics/new_platform.png" alt="photo" width="60%" />
+</div>
 
 Sensor/Device|Model|Specification
 :--:|:--:|:--:
