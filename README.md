@@ -275,7 +275,7 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
 ## Config Files
 To simplify the user testing procedure, We have provided the calibration and config files of the State-Of-The-Arts, which can be accessed in [calib](./calib/) and [config](./config/) folders.
 
-Testing of LVI-SAM on 1005-00 sequence:
+Testing of [LVI-SAM](https://github.com/Cc19245/LVI-SAM-Easyused) on 1005-00 sequence:
 <div align="left">
 <img src="./gifs/sota/lvi_1005_00_cut_short.gif" alt="video" width="80%" />
 </div>
