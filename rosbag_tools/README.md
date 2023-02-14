@@ -35,7 +35,7 @@ For example, if the original picture is collected at 40Hz, and the corresponding
 - `left_cam_topic_rgb`：topic of left rgb camera
 - `right_cam_topic_rgb`：topic of right rgb camera
 
-see the yaml sample fil[settings_for_append.yaml](./src/bag_creator/config/settings_for_append.yaml)
+see the yaml sample file [settings_for_append.yaml](./src/bag_creator/config/settings_for_append.yaml)
 
 **Create a new bag with your images:**
 
