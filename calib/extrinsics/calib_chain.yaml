@@ -105,7 +105,8 @@ T_bmi088_livox: !!opencv-matrix
    dt: d
    data: [1.0,0.0,0.0,0.04165,
           0.0,1.0,0.0,0.02326,
-          0.0,0.0,1.0,-0.0284]
+          0.0,0.0,1.0,-0.0284,
+          0.0,0.0,0.0,1.0]
 
 # Livox in VLP16 coordinates
 T_vlp16_livox: !!opencv-matrix
