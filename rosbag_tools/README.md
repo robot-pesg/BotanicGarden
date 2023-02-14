@@ -35,7 +35,7 @@ For example, if the original picture is collected at 40Hz, and the corresponding
 - `left_cam_topic_rgb`：topic of left rgb camera
 - `right_cam_topic_rgb`：topic of right rgb camera
 
-see the yaml sample file 'settings_for_append.yaml'
+see the yaml sample fil[settings_for_append.yaml](./src/bag_creator/config/settings_for_append.yaml)
 
 **Create a new bag with your images:**
 
@@ -45,7 +45,7 @@ You can create a new bag file from an existing image file using the following co
 
 The yaml file meaning of this tool is exactly the same as the append tool, please see the append section.
 
-see the yaml sample file 'settings_for_creator.yaml'
+see the yaml sample file [settings_for_creator.yaml](./src/bag_creator/config/settings_for_creator.yaml)
 
 **Extract images from existing bag file:**
 
@@ -63,7 +63,7 @@ The yaml file format and interpretation is as follows:
 - `output_image_format`：the format of the image output
 - `cam_topic`：the image topic to output
 
-see the yaml sample file 'settings_for_extractor.yaml'
+see the yaml sample file [settings_for_extractor.yaml](./src/bag_creator/config/settings_for_extractor.yaml)
 
 
 
