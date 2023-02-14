@@ -180,8 +180,8 @@ int main(int argc, char **argv)
         //     cvflag = cv::IMREAD_COLOR;
         // }
 
-        std::string l_path_whole = config_node["left_folder_path"].as<std::string>();
-        std::string r_path_whole = config_node["right_folder_path"].as<std::string>();
+        std::string l_path_whole = config_node["image_folder_path"].as<std::string>();
+        std::string r_path_whole = l_path_whole;
 
         std::string l_path = l_path_whole + bag_name + "/c4a3a4/";
         std::string r_path = r_path_whole + bag_name + "/c4a3a8/";

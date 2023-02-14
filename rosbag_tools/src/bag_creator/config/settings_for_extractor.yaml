@@ -10,9 +10,4 @@ output_image_prefix: image_
 output_image_format: .png
 
 # cam topics in rosbag:
-left_cam_topic: /dalsa_gray_0/image_raw
-right_cam_topic: /dalsa_gray_1/image_raw
-
-# rgb cam topics in rosbag
-left_cam_topic_rgb: /dalsa_rgb_0/image_raw
-right_cam_topic_rgb: /dalsa_rgb_1/image_raw
+cam_topic: /dalsa_gray/left/image_raw
