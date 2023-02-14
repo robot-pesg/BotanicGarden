@@ -4,16 +4,7 @@
 
 Our dataset is captured in rosbag and raw formats. For the convenience of usage, we have provided a toolbox to convert between different structures.
 
-## About the scripts
-
-- `COCO_Image_Viewer.ipynb`：COCO-format visualization
-- `labelme2coco.py`：Convert a folder of jsons into coco-format segmentation dataset:
-- `segmentation_labelme2voc.py`：Convert a folder of jsons into voc-format segmentation dataset and visualization pictures
-- `image.py`: Some simple functions。
-
 ## Build Rosbag Tools on ROS
-
-[labelme](https://github.com/wkentaro/labelme):
 
 ```bash
 # python3
@@ -23,8 +14,6 @@ source /devel/setup.bash
 ```
 
 ## Usage
-
-
 **Append your images into a bag file：**
 
 You can use this tool to add images to an existing bag file using the following command:
