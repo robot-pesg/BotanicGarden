@@ -7,7 +7,6 @@ Our dataset is captured in rosbag and raw formats. For the convenience of usage,
 ## Build Rosbag Tools on ROS
 
 ```bash
-# python3
 cd /{YOUR_PATH}/rosbag_tools
 catkin_make
 source /devel/setup.bash
