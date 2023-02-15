@@ -25,7 +25,7 @@ The yaml file format and interpretation is as follows:
 For example, in the sequence 1005_01, there are two grayscale cameras and two RGB cameras. Two grayscale cameras are named c4a3a4 and c4a3a8, and two color cameras are named c54d7a and c54d79. The folder structure should be /{YOUR_PATH}/1005_01/c4a3a4/{c4a3a4 images}, /{YOUR_PATH}/1005_01/c4a3a8/{c4a3a8 images} and so on, Only enter /{YOUR_PATH}/1005_01/ here.
 - `timestamp_file_path`：the path of timestamp file
 - `bag_names`：the original bag to be added
-- `down_sample_ratio`image downsampling frequency.\n
+- `down_sample_ratio`: image downsampling frequency.
 For example, if the original picture is collected at 40Hz, and the corresponding timestamp file records 40Hz information, when down_sample_ratio is set to 4, the picture will be added to the bag at a frequency of 10Hz
 - `left_cam_topic`：topic of left gray camera
 - `right_cam_topic`：topic of right gray camera
