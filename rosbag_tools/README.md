@@ -24,8 +24,6 @@ The yaml file format and interpretation is as follows:
 - `image_folder_path`：the path of images that needs to be added to the bag
 For example, in the sequence 1005_01, there are two grayscale cameras and two RGB cameras. Two grayscale cameras are named c4a3a4 and c4a3a8, and two color cameras are named c54d7a and c54d79. The folder structure should be /{YOUR_PATH}/1005_01/c4a3a4/{c4a3a4 images}, /{YOUR_PATH}/1005_01/c4a3a8/{c4a3a8 images} and so on, Only enter /{YOUR_PATH}/1005_01/ here.
 - `timestamp_file_path`：the path of timestamp file
-- `exposure_time_path`：the path of timestamp file
-In order to ensure the absolute accuracy of time synchronization, we added the camera exposure time /2 for the corresponding frame and a trigger delay of 8 microseconds to the camera trigger time.The timestamp_file_path file is the original trigger timestamp file. The exposure_time_path file contains camera exposure time information.
 see example file for timestamp in folder example
 - `bag_names`：the original bag to be added
 - `down_sample_ratio`image downsampling frequency

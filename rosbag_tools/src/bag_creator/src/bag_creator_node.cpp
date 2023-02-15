@@ -95,64 +95,6 @@ int main(int argc, char **argv)
         std::string exposure_time_path =  exposure_time_path_whole + bag_name + "_c4a3a4.txt";
         std::string exposure_time_path_rgb =  exposure_time_path_whole + bag_name + "_c54d7a.txt";
 
-        vector<double> exposure_time;
-        exposure_time.reserve(50000);
-        vector<double> exposure_time_rgb;
-        exposure_time_rgb.reserve(50000);
-
-        ifstream readStream;
-        readStream.open(exposure_time_path, ios::in);
-        int item_count = 0;
-        int exposure_count = 0;
-        if (readStream.is_open())
-        {
-            string readStr;
-            // indexParent = 0;
-            
-            while (readStream >> readStr)
-            {
-                // dalsa_time.push_back(stold(readStr.c_str()));
-                item_count++;
-                if (readStr.size() > 2 && readStr.size() < 6)
-                {
-                    exposure_time.push_back(std::stod(readStr) / 1000000);
-                    // std::cout << readStr << std::endl;
-                    exposure_count++;
-                }
-            }
-            readStream.close();
-            std::cout << "item_count/4= " << item_count / 4 << std::endl;
-            std::cout << "exposure_count=" << exposure_count << std::endl;
-            assert(item_count / 4 == exposure_count);
-        }
-
-        ifstream readStream_rgb;
-        readStream_rgb.open(exposure_time_path_rgb, ios::in); 
-        item_count = 0;
-        exposure_count = 0;
-        if (readStream_rgb.is_open())
-        {
-            string readStr;
-            // indexParent = 0;
-            
-            while (readStream_rgb >> readStr)
-            {
-                // dalsa_time.push_back(stold(readStr.c_str()));
-                item_count++;
-                if (readStr.size() > 2 && readStr.size() < 6)
-                {
-                    exposure_time_rgb.push_back(std::stod(readStr) / 1000000);
-                    // std::cout << readStr << std::endl;
-                    exposure_count++;
-                }
-            }
-            readStream_rgb.close();
-            std::cout << "item_count/4= " << item_count / 4 << std::endl;
-            std::cout << "exposure_count=" << exposure_count << std::endl;
-            assert(item_count / 4 == exposure_count);
-        }
-
-
         int flag = 0;
         while(!fTimes.eof())
         {
@@ -166,8 +108,8 @@ int main(int argc, char **argv)
                 ss >> t;
                 // vTimeStamps.push_back(t);
                 if (flag % down_sample_ratio == 0){
-                    vTimeStamps.push_back(t + exposure_time[flag] / 2 + 8 / 1000000);
-                    vTimeStamps_rgb.push_back(t + exposure_time_rgb[flag] / 2 + 8 / 1000000);
+                    vTimeStamps.push_back(t);
+                    vTimeStamps_rgb.push_back(t);
                 }
                 flag++;  
             }   

@@ -3,7 +3,6 @@ image_folder_path: /media/pesg/intel384/image_down/
 
 # corresponding timestamp file path:
 timestamp_file_path: /media/pesg/intel384/bag_create_0131/used_stamps/
-exposure_time_path: /media/pesg/intel384/bag_create_0131/exposure_times/
 
 bag_names: ["1005_00", "1005_01", "1005_07"]
 
