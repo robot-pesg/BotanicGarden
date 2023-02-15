@@ -91,10 +91,6 @@ int main(int argc, char **argv)
 
         int down_sample_ratio = config_node["down_sample_ratio"].as<int>();
 
-        std::string exposure_time_path_whole =  config_node["exposure_time_path"].as<std::string>();
-        std::string exposure_time_path =  exposure_time_path_whole + bag_name + "_c4a3a4.txt";
-        std::string exposure_time_path_rgb =  exposure_time_path_whole + bag_name + "_c54d7a.txt";
-
         int flag = 0;
         while(!fTimes.eof())
         {
