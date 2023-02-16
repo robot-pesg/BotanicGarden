@@ -1,0 +1,16 @@
+%YAML:1.0
+---
+model_type: PINHOLE
+camera_name: camera
+image_width: 1920
+image_height: 1080
+distortion_parameters:
+   k1: -0.062088558443874
+   k2: 0.095865712284045
+   p1: 0.0
+   p2: 0.0
+projection_parameters:
+   fx: 1286.549067001242
+   fy: 1284.941816958609
+   cx: 911.4379562951881
+   cy: 608.5470967126597
