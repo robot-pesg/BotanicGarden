@@ -84,9 +84,13 @@ int main(int argc, char **argv)
         std::vector<double> vTimeStamps_rgb;
         std::ifstream fTimes;
         std::string strPathTimes_whole = config_node["timestamp_file_path"].as<std::string>();
-        std::string strPathTimes = strPathTimes_whole + bag_name + ".txt";
-        fTimes.open(strPathTimes.c_str());
+        std::string strPathTimes = strPathTimes_whole + bag_name + "_gray.txt";
+        fTimes.open(strPathTimes_whole.c_str());
         vTimeStamps.reserve(40000);
+
+        std::ifstream fTimes_rgb;
+        std::string strPathTimes_rgb = strPathTimes_whole + bag_name + "_color.txt";
+        fTimes_rgb.open(strPathTimes_rgb.c_str());
         vTimeStamps_rgb.reserve(40000);
 
         int down_sample_ratio = config_node["down_sample_ratio"].as<int>();
@@ -105,12 +109,30 @@ int main(int argc, char **argv)
                 // vTimeStamps.push_back(t);
                 if (flag % down_sample_ratio == 0){
                     vTimeStamps.push_back(t);
+                }
+                flag++;  
+            }   
+        }
+
+        flag = 0;
+        while(!fTimes_rgb.eof())
+        {
+            std::string s;
+            getline(fTimes_rgb,s);
+            if(!s.empty())
+            {
+                std::stringstream ss;
+                ss << s;
+                double t;
+                ss >> t;
+                if (flag % down_sample_ratio == 0){
                     vTimeStamps_rgb.push_back(t);
                 }
                 flag++;  
             }   
         }
 
+        assert(vTimeStamps.size() == vTimeStamps_rgb.size());
         const int nTimes = vTimeStamps.size();
         // std::string image_format = config_node["image_format"].as<std::string>();
         // int cvflag = cv::IMREAD_GRAYSCALE;
