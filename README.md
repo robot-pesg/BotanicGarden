@@ -1,7 +1,7 @@
 # BotanicGarden Dataset
 ## A high-quality and large-scale robot navigation dataset in challenging natural environments
 
-## Authors: 
+### Authors: 
 [Yuanzhi Liu](https://github.com/lyzrose), Yujia Fu, [Minghui Qin](https://github.com/SJTU-qin), [Yufeng Xu](https://github.com/feng15423), [Baoxin Xu](https://github.com/xbx1), et al.
 
 <!-- <div align="center">
