@@ -24,15 +24,13 @@ int main(int argc, char **argv)
 
     bag.open(bag_path, rosbag::bagmode::Read);
 
-    std::string l_cam = config_node["left_cam_topic"].as<std::string>();
-    std::string r_cam = config_node["right_cam_topic"].as<std::string>();
+    std::string l_cam = config_node["cam_topic"].as<std::string>();
 
     int down_sample_ratio = config_node["down_sample_ratio"].as<int>();
 
     // Image topics to load
     std::vector<std::string> topics;
     topics.push_back(l_cam);
-    topics.push_back(r_cam);
 
     rosbag::View view(bag, rosbag::TopicQuery(topics));
 

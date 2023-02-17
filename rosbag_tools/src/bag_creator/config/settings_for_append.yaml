@@ -1,10 +1,8 @@
 # dataset folder absolute paths of cams:
-left_folder_path: /media/pesg/intel384/image_down/
-right_folder_path: /media/pesg/intel384/image_down/
+image_folder_path: /media/pesg/intel384/image_down/
 
 # corresponding timestamp file path:
 timestamp_file_path: /media/pesg/intel384/bag_create_0131/used_stamps/
-exposure_time_path: /media/pesg/intel384/bag_create_0131/exposure_times/
 
 bag_names: ["1005_00", "1005_01", "1005_07"]
 
@@ -15,9 +13,9 @@ down_sample_ratio: 4
 output_folder_path: /media/pesg/intel384/bag_create_0131/bags/
 
 # cam topics in rosbag:
-left_cam_topic: /dalsa_gray_0/image_raw
-right_cam_topic: /dalsa_gray_1/image_raw
+left_cam_topic: /dalsa_gray/left/image_raw
+right_cam_topic: /dalsa_gray/right/image_raw
 
 # rgb cam topics in rosbag
-left_cam_topic_rgb: /dalsa_rgb_0/image_raw
-right_cam_topic_rgb: /dalsa_rgb_1/image_raw
+left_cam_topic_rgb: /dalsa_rgb/left/image_raw
+right_cam_topic_rgb: /dalsa_rgb/right/image_raw

@@ -54,7 +54,7 @@ int main(int argc, char **argv)
 {
     if(argc != 2)
     {
-        std::cerr << std::endl << "Usage: ./bag_creator config_file_path" << std::endl;
+        std::cerr << std::endl << "Usage: rosrun bag_creator bag_append_node config_file_path" << std::endl;
 
         return 1;
     }
@@ -84,74 +84,16 @@ int main(int argc, char **argv)
         std::vector<double> vTimeStamps_rgb;
         std::ifstream fTimes;
         std::string strPathTimes_whole = config_node["timestamp_file_path"].as<std::string>();
-        std::string strPathTimes = strPathTimes_whole + bag_name + ".txt";
-        fTimes.open(strPathTimes.c_str());
+        std::string strPathTimes = strPathTimes_whole + bag_name + "_gray.txt";
+        fTimes.open(strPathTimes_whole.c_str());
         vTimeStamps.reserve(40000);
+
+        std::ifstream fTimes_rgb;
+        std::string strPathTimes_rgb = strPathTimes_whole + bag_name + "_color.txt";
+        fTimes_rgb.open(strPathTimes_rgb.c_str());
         vTimeStamps_rgb.reserve(40000);
 
         int down_sample_ratio = config_node["down_sample_ratio"].as<int>();
-
-        std::string exposure_time_path_whole =  config_node["exposure_time_path"].as<std::string>();
-        std::string exposure_time_path =  exposure_time_path_whole + bag_name + "_c4a3a4.txt";
-        std::string exposure_time_path_rgb =  exposure_time_path_whole + bag_name + "_c54d7a.txt";
-
-        vector<double> exposure_time;
-        exposure_time.reserve(50000);
-        vector<double> exposure_time_rgb;
-        exposure_time_rgb.reserve(50000);
-
-        ifstream readStream;
-        readStream.open(exposure_time_path, ios::in);
-        int item_count = 0;
-        int exposure_count = 0;
-        if (readStream.is_open())
-        {
-            string readStr;
-            // indexParent = 0;
-            
-            while (readStream >> readStr)
-            {
-                // dalsa_time.push_back(stold(readStr.c_str()));
-                item_count++;
-                if (readStr.size() > 2 && readStr.size() < 6)
-                {
-                    exposure_time.push_back(std::stod(readStr) / 1000000);
-                    // std::cout << readStr << std::endl;
-                    exposure_count++;
-                }
-            }
-            readStream.close();
-            std::cout << "item_count/4= " << item_count / 4 << std::endl;
-            std::cout << "exposure_count=" << exposure_count << std::endl;
-            assert(item_count / 4 == exposure_count);
-        }
-
-        ifstream readStream_rgb;
-        readStream_rgb.open(exposure_time_path_rgb, ios::in); 
-        item_count = 0;
-        exposure_count = 0;
-        if (readStream_rgb.is_open())
-        {
-            string readStr;
-            // indexParent = 0;
-            
-            while (readStream_rgb >> readStr)
-            {
-                // dalsa_time.push_back(stold(readStr.c_str()));
-                item_count++;
-                if (readStr.size() > 2 && readStr.size() < 6)
-                {
-                    exposure_time_rgb.push_back(std::stod(readStr) / 1000000);
-                    // std::cout << readStr << std::endl;
-                    exposure_count++;
-                }
-            }
-            readStream_rgb.close();
-            std::cout << "item_count/4= " << item_count / 4 << std::endl;
-            std::cout << "exposure_count=" << exposure_count << std::endl;
-            assert(item_count / 4 == exposure_count);
-        }
-
 
         int flag = 0;
         while(!fTimes.eof())
@@ -166,13 +108,31 @@ int main(int argc, char **argv)
                 ss >> t;
                 // vTimeStamps.push_back(t);
                 if (flag % down_sample_ratio == 0){
-                    vTimeStamps.push_back(t + exposure_time[flag] / 2 + 8 / 1000000);
-                    vTimeStamps_rgb.push_back(t + exposure_time_rgb[flag] / 2 + 8 / 1000000);
+                    vTimeStamps.push_back(t);
                 }
                 flag++;  
             }   
         }
 
+        flag = 0;
+        while(!fTimes_rgb.eof())
+        {
+            std::string s;
+            getline(fTimes_rgb,s);
+            if(!s.empty())
+            {
+                std::stringstream ss;
+                ss << s;
+                double t;
+                ss >> t;
+                if (flag % down_sample_ratio == 0){
+                    vTimeStamps_rgb.push_back(t);
+                }
+                flag++;  
+            }   
+        }
+
+        assert(vTimeStamps.size() == vTimeStamps_rgb.size());
         const int nTimes = vTimeStamps.size();
         // std::string image_format = config_node["image_format"].as<std::string>();
         // int cvflag = cv::IMREAD_GRAYSCALE;
@@ -180,8 +140,8 @@ int main(int argc, char **argv)
         //     cvflag = cv::IMREAD_COLOR;
         // }
 
-        std::string l_path_whole = config_node["left_folder_path"].as<std::string>();
-        std::string r_path_whole = config_node["right_folder_path"].as<std::string>();
+        std::string l_path_whole = config_node["image_folder_path"].as<std::string>();
+        std::string r_path_whole = l_path_whole;
 
         std::string l_path = l_path_whole + bag_name + "/c4a3a4/";
         std::string r_path = r_path_whole + bag_name + "/c4a3a8/";
