@@ -316,5 +316,8 @@ The authors would like to thank the colleagues from Tongji University and Sun Ya
 ## Funding
 This work was supported by National Key R&D Program of China under Grant 2018YFB1305005.
 
+## Timeline
+Feb 6, 2022         Open the GitHub website: https://github.com/robot-pesg/BotanicGarden
+
 ## Contact
 This dataset is provided for academic purposes. If you meet some technical problems, please open an issue or contact <Yuanzhi Liu: lyzrose@sjtu.edu.cn>.
