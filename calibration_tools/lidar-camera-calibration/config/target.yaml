@@ -1,0 +1,18 @@
+%YAML:1.0
+image_folder : "/home/uu/Documents/L515_ros_ws/src/github_tutorial/rqt_mypkg/rqt_example_cpp/data/image_shoots"
+target_image : "/home/uu/Documents/L515_ros_ws/L515.jpg"
+pattern_size : [6,7]
+grid_size : 50 #mm
+key_board_num : 3
+#0.60784314, 0.70588235, 0.68627451
+#0.80784314, 0.9372549 , 0.95294118
+white: !!opencv-matrix
+   rows: 1
+   cols: 3
+   dt: d
+   data: [ 0.60784314, 0.70588235, 0.68627451 ]
+black: !!opencv-matrix
+   rows: 1
+   cols: 3
+   dt: d
+   data: [ 0.80784314, 0.9372549 , 0.95294118 ]
