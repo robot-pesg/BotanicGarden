@@ -125,4 +125,13 @@ T_xsens_robot: !!opencv-matrix
    dt: d
    data: [1.0,0.0,0.0,-0.02725,
           0.0,1.0,0.0,0.0047,
-          0.0,0.0,1.0,-1.4716]
+          0.0,0.0,1.0,-0.84466]
+
+# Ground in Xsens coordinates
+T_xsens_ground: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: d
+   data: [1.0,0.0,0.0,-0.02725,
+          0.0,1.0,0.0,0.0047,
+          0.0,0.0,1.0,-0.99466]
