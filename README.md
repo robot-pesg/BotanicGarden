@@ -117,6 +117,8 @@ ROS Topic|Message Type|Description
 /livox/imu|sensor_msgs/Imu|Livox BMI088 IMU
 /gt_poses|geometry_msgs/PoseStamped|Ground truth poses
 
+Note that, for ease of downloading and testing, the vision data in rosbag have been downsampled to 960x600@20Hz. Full res&rate images (1920x1200@40Hz) are available in raw zips.
+
 ## Ground Truth Trajectories
 <div align="left">
 <img src="./pics/gt_poses/fig7-1.png" alt="photo" height="200" hspace="5"/>
