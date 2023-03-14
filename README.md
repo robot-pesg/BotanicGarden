@@ -322,7 +322,7 @@ The authors would like to thank the colleagues from TongJi University and Sun Ya
 This work was supported by National Key R&D Program of China under Grant 2018YFB1305005.
 
 ## Timeline
-Feb&ensp;6, 2023         &emsp; Open the GitHub website: https://github.com/robot-pesg/BotanicGarden<br />
+Feb &ensp;6, 2023         &emsp; Open the GitHub website: https://github.com/robot-pesg/BotanicGarden<br />
 Feb 10, 2023         &emsp; Rosbag tools open-sourced<br />
 Feb 13, 2023         &emsp; Semantic tools open-sourced<br />
 Feb 14, 2023         &emsp; Calibration params available<br />
