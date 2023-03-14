@@ -118,7 +118,7 @@ ROS Topic|Message Type|Description
 /gt_poses|geometry_msgs/PoseStamped|Ground truth poses
 
 <sup>1</sup>Imagezip and no-vision rosbag size.
-<sup>2</sup>Note that, for ease of downloading and testing, the vision data in rosbag have been downsampled to 960x600@20Hz. Full res&rate images (1920x1200@40Hz) are available in raw zips.
+<sup>2</sup>The vision data in rosbag have been downsampled to 960x600@20Hz to ease the downloads and testing. Full res&rate frames (1920x1200@40Hz) are available in raw imagezips.
 
 ## Ground Truth Trajectories
 <div align="left">
