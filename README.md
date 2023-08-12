@@ -2,7 +2,7 @@
 ## A high-quality and large-scale robot navigation dataset in challenging natural environments
 
 ### Authors: 
-[Yuanzhi Liu](https://github.com/lyzrose), [Yujia Fu](https://github.com/yayafu666)&dagger, [Minghui Qin](https://github.com/SJTU-qin)&dagger, [Yufeng Xu](https://github.com/feng15423)&dagger, [Baoxin Xu](https://github.com/xbx1), et al. (&dagger Contributed equally)
+[Yuanzhi Liu](https://github.com/lyzrose), [Yujia Fu](https://github.com/yayafu666)†, [Minghui Qin](https://github.com/SJTU-qin)†, [Yufeng Xu](https://github.com/feng15423)†, [Baoxin Xu](https://github.com/xbx1), et al. († Contributed equally)
 
 <!-- <div align="center">
 <img src="./pics/bev_map/bev_whole.png" alt="photo" width="60%" />
