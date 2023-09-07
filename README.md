@@ -333,4 +333,4 @@ Feb 18, 2023         &emsp; Paper submitted to IEEE Robotics and Automation Lett
 This dataset is provided for academic purposes. If you meet some technical problems, please open an issue or contact <Yuanzhi Liu: lyzrose@sjtu.edu.cn> and <Yufeng Xu: xuyufeng@sjtu.edu.cn>.
 
 ## Citation
-The preprint version of our paper is already available on [arXiv](https://arxiv.org/abs/2306.14137). If our data/code/tool helps your research, please cite: "Liu, Y., Fu, Y., Qin, M., Xu, Y., Xu, B., Chen, F., Goossens, B., Yu, H., Chen, L., Liu, C., Tao, W., Zhao, H. (2023). BotanicGarden: A high-quality and large-scale robot navigation dataset in challenging natural environments. arXiv preprint arXiv:2306.14137."
+The preprint version of our paper is already available on [arXiv](https://arxiv.org/abs/2306.14137). If our data/code/tool/knowledge helps your research, please cite: "Liu, Y., Fu, Y., Qin, M., Xu, Y., Xu, B., Chen, F., Goossens, B., Yu, H., Chen, L., Liu, C., Tao, W., Zhao, H. (2023). BotanicGarden: A high-quality and large-scale robot navigation dataset in challenging natural environments. arXiv preprint arXiv:2306.14137."
