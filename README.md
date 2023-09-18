@@ -329,6 +329,7 @@ Feb 14, 2023         &emsp; Calibration params available<br />
 Feb 17, 2023         &emsp; Calibration tools open-sourced<br />
 Feb 18, 2023         &emsp; Paper submitted to IEEE Robotics and Automation Letters (RA-L)<br />
 Sep 18, 2023         &emsp; Trajectories info updated<br />
+Sep 20, 2023         &emsp; More sequences available<br />
 
 ## Contact
 This dataset is provided for academic purposes. If you meet some technical problems, please open an issue or contact <Yuanzhi Liu: lyzrose@sjtu.edu.cn> and <Yufeng Xu: xuyufeng@sjtu.edu.cn>.
