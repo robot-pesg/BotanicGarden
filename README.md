@@ -299,7 +299,12 @@ Testing of [LVI-SAM](https://github.com/Cc19245/LVI-SAM-Easyused) on 1005-00 seq
 
 
 ## Semantic Dense Annotations
-All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map paintings.
+All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map annotations. The categories and their distribution are shown below.
+
+<div align="left">
+<img src="./pics/semantics/semantics.png" alt="photo" width="80%" />
+</div>
+
 <div align="left">
 <img src="./gifs/semantics/new/JPEG_480×300.gif" alt="video" width="40%" />
 <img src="./gifs/semantics/new/SegmentationVisualization_480×300.gif" alt="video" width="40%" />
