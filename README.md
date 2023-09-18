@@ -324,7 +324,7 @@ Our dataset is captured in rosbag and raw formats. For the convenience of usage,
 ### Semantic Conversion
 The semantics are labelled in LabelMe json format. For the convenience of usage, we have provided a toolbox to convert to PASCAL VOC and MS COCO formats, check the [semantic_tools](./semantic_tools/) folder for usage.
 ### Calibration Tool
-We have designed a concise toolbox for camera-LiDAR calibration based on several 2D checker boards. The precision is evaluated by registration error, which is ~9mm std. in our case. Check the [calibration_tools](./calibration_tools/) folder for usage.
+We have designed a concise toolbox for camera-LiDAR calibration based on several 2D checker boards. The precision is evaluated by the registration error between LiDAR points and visual pattern, which was ~9mm std. in our experiment. Check the [calibration_tools](./calibration_tools/) folder for usage.
 
 <div align="left">
 <img src="./pics/calib/comp_board.png" alt="photo" width="80%" />
