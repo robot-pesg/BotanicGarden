@@ -327,6 +327,7 @@ The semantics are labelled in LabelMe json format. For the convenience of usage,
 We have designed a concise toolbox for camera-LiDAR calibration based on several 2D checker boards. The precision is evaluated by registration error, which is ~9mm std. in our case. Check the [calibration_tools](./calibration_tools/) folder for usage.
 
 <div align="left">
+<img src="./pics/calib/comp_board.png" alt="photo" width="80%" />
 <img src="./pics/calib/comp_lvx_board_1.png" alt="photo" width="80%" />
 </div>
 
