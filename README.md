@@ -131,8 +131,8 @@ ROS Topic|Message Type|Description
 ## Ground Truth Trajectories
 Our ground truth trajectories were generated within a survey-grade 3D map. With our dedicated survey works, the map was with ~1cm precision in the global coordinates, ensuring a cm-level precision for the robot position. The whole 33 trajectories can be found in [GT_traj](./GT_traj/) folder.
 <div align="left">
-<img src="./pics/gt_poses/fig7-1.png" alt="photo" height="200" hspace="5"/>
-<img src="./pics/gt_poses/fig7-2.png" alt="photo" height="200" />
+<img src="./pics/all_traj/traj_full/1005-02.png" alt="photo" height="200" hspace="5"/>
+<img src="./pics/all_traj/traj_full/1005-07.png" alt="photo" height="200" />
 </div>
 
 ## State-Of-The-Art Evaluation
