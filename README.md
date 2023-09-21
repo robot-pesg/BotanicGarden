@@ -84,7 +84,7 @@ Some survey photos and registration works:
 </div> -->
 
 ## Data Sequences
-Our dataset consists of 33 data sequences in total. The sequences info is shown below, including statistics of LiDAR scans, trajectory length, duration, images, and intersactions.
+Our dataset consists of 33 data sequences in total. The sequences info is shown below, including statistics of LiDAR scans, trajectory length, duration, images, and intersactions. Their trajectory images can be found in [this folder](./pics/all_traj/traj_full/).
 
 <div align="left">
 <img src="./pics/all_traj/all_traj.png" alt="photo" width="80%" />
