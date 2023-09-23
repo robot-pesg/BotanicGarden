@@ -357,4 +357,9 @@ This dataset is provided for academic purposes. If you meet some technical probl
 ## Citation
 The preprint version of our paper is already available on [arXiv](https://arxiv.org/abs/2306.14137). If our data/code/tool/knowledge helps your research, please cite: <br />
 
-Liu, Y., Fu, Y., Qin, M., Xu, Y., Xu, B., Chen, F., Goossens, B., Yu, H., Chen, L., Liu, C., Tao, W., Zhao, H. (2023). BotanicGarden: A high-quality and large-scale robot navigation dataset in challenging natural environments. arXiv preprint arXiv:2306.14137.
+@article{liu2023botanicgarden,
+  title={BotanicGarden: A high-quality and large-scale robot navigation dataset in challenging natural environments},
+  author={Liu, Yuanzhi and Fu, Yujia and Qin, Minghui and Xu, Yufeng and Xu, Baoxin and Chen, Fengdong and Goossens, Bart and Yu, Hongwei and Liu, Chun and Chen, Long and others},
+  journal={arXiv preprint arXiv:2306.14137},
+  year={2023}
+}
