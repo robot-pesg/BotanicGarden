@@ -126,7 +126,7 @@ ROS Topic|Message Type|Description
 /gt_poses|geometry_msgs/PoseStamped|Ground truth poses
 
 <sup>1</sup>Imagezip and no-vision rosbag size.
-<sup>2</sup>The rosbags contain downsampled vision data (960x600@20Hz) to ease the downloads. Full res&rate frames (1920x1200@40Hz) are available in raw imagezips.
+<sup>2</sup>The rosbags contain downsampled vision data (960x600@10Hz) to ease the downloads. Full res&rate frames (1920x1200@40Hz) are available in raw imagezips.
 
 ## Ground Truth Trajectories
 Our ground truth trajectories were generated within a survey-grade 3D map. With our dedicated survey works, the map was with ~1cm precision in the global coordinates, ensuring a cm-level precision for robot localization. All the 33 trajectories can be found in [GT_traj](./GT_traj/) folder.
