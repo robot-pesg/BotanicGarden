@@ -361,7 +361,7 @@ The preprint version of our paper is already available on [arXiv](https://arxiv.
 ```
 @article{liu2023botanicgarden,
   title={BotanicGarden: A high-quality and large-scale robot navigation dataset in challenging natural environments},
-  author={Liu, Yuanzhi and Fu, Yujia and Qin, Minghui and Xu, Yufeng and Xu, Baoxin and Chen, Fengdong and Goossens, Bart and Yu, Hongwei and Liu, Chun and Chen, Long and others},
+  author={Liu, Yuanzhi and Fu, Yujia and Qin, Minghui and Xu, Yufeng and Xu, Baoxin and Chen, Fengdong and Goossens, Bart and Yu, Hongwei and Liu, Chun and Chen, Long and Tao, Wei and Zhao, Hui},
   journal={arXiv preprint arXiv:2306.14137},
   year={2023}
 }
