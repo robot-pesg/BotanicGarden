@@ -303,7 +303,7 @@ Testing of [LVI-SAM](https://github.com/Cc19245/LVI-SAM-Easyused) on 1005-00 seq
 All data are provided in LabelMe format and support future reproducing. It is expected that these data can strengthen the abilities of robust motion estimation and semantic map annotations. The categories and their distribution are shown below.
 
 <div align="left">
-<img src="./pics/semantics/semantics.png" alt="photo" width="80%" />
+<img src="./pics/semantics/distribution.png" alt="photo" width="80%" />
 </div>
 
 <div align="left">
