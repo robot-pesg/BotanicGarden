@@ -1,32 +1,10 @@
-%YAML:1.0
----
-type: IMU
-name: livox
-Gyr:
-   unit: " rad/s"
-   avg-axis:
-      gyr_n: 2.6531169988559936e-03
-      gyr_w: 2.3946931268655250e-05
-   x-axis:
-      gyr_n: 3.6215108675043900e-03
-      gyr_w: 2.7160773307073738e-05
-   y-axis:
-      gyr_n: 2.1231915228821000e-03
-      gyr_w: 2.2501699959418972e-05
-   z-axis:
-      gyr_n: 2.2146486061814918e-03
-      gyr_w: 2.2178320539473030e-05
-Acc:
-   unit: " m/s^2"
-   avg-axis:
-      acc_n: 2.1202457775570094e-03
-      acc_w: 3.8868489383496009e-05
-   x-axis:
-      acc_n: 2.1941516667338947e-03
-      acc_w: 5.2759880416836895e-05
-   y-axis:
-      acc_n: 2.1065518867897492e-03
-      acc_w: 3.7696559836024367e-05
-   z-axis:
-      acc_n: 2.0600337791473835e-03
-      acc_w: 2.6149027897626774e-05
+#Accelerometer
+accelerometer_noise_density: 0.0016744851413197843 
+accelerometer_random_walk: 6.244967184390112e-05 
+
+#Gyroscope
+gyroscope_noise_density: 0.0002495875336978279 
+gyroscope_random_walk: 4.901714002449629e-06 
+
+rostopic: '/livox/imu' #Make sure this is correct
+update_rate: 200.0 #Make sure this is correct
