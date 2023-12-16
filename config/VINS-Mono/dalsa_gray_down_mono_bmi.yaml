@@ -1,0 +1,95 @@
+%YAML:1.0
+
+#common parameters
+imu_topic: "/livox/imu"
+image_topic: "/dalsa_gray_0/image_raw"
+output_path: "/home/pesg/Projects/VINS_Mono_ws/result/"
+
+#camera calibration 
+model_type: PINHOLE
+camera_name: camera
+image_width: 960
+image_height: 600
+distortion_parameters:
+   k1: -0.061606731291039
+   k2: 0.100129900708930
+   p1: 0.0
+   p2: 0.0
+projection_parameters:
+   fx: 643.5951111267952
+   fy: 642.6656126857330
+   cx: 475.2215406900663
+   cy: 307.4120184196884
+
+# Extrinsic parameter between IMU and Camera.
+estimate_extrinsic: 0 # 0  Have an accurate extrinsic parameters. We will trust the following imu^R_cam, imu^T_cam, don't change it.
+                        # 1  Have an initial guess about extrinsic parameters. We will optimize around your initial guess.
+                        # 2  Don't know anything about extrinsic parameters. You don't need to give R,T. We will try to calibrate it. Do some rotation movement at beginning.                        
+#If you choose 0 or 1, you should write down the following matrix.
+#Rotation from camera frame to imu frame, imu^R_cam
+extrinsicRotation: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [9.588005232696872e-05, 0.02165642738051793, 0.9997654674773117,
+          -0.999887438936744, -0.01499774692618039, 0.0004207655603527538,
+          0.01500334174556117, -0.99965297315631, 0.02165255172526581]
+#Translation from camera frame to imu frame, imu^T_cam
+extrinsicTranslation: !!opencv-matrix
+   rows: 3
+   cols: 1
+   dt: d
+   data: [ 8.9253240841861001e-02, 1.6994609051096400e-01, 3.8671653069226000e-02 ]
+
+#feature traker paprameters
+max_cnt: 150            # max feature number in feature tracking
+min_dist: 30            # min distance between two features  origin 30
+freq: 0                # frequence (Hz) of publish tracking result. At least 10Hz for good estimation. If set 0, the frequence will be same as raw image 
+F_threshold: 1.0        # ransac threshold (pixel)
+show_track: 1           # publish tracking image as topic
+equalize: 1             # if image is too dark or light, trun on equalize to find enough features
+fisheye: 0              # if using fisheye, trun on it. A circle mask will be loaded to remove edge noisy points
+
+#optimization parameters
+max_solver_time: 0.04  # max solver itration time (ms), to guarantee real time origin 0.04
+max_num_iterations: 8   # max solver itrations, to guarantee real time origin 8
+keyframe_parallax: 10.0 # keyframe selection threshold (pixel)
+
+#imu parameters       The more accurate parameters you provide, the better performance
+acc_n: 0.0016744851413197843          # accelerometer measurement noise standard deviation. 
+gyr_n: 0.0002495875336978279         # gyroscope measurement noise standard deviation.     
+acc_w: 6.244967184390112e-05        # accelerometer bias random work noise standard deviation.  
+gyr_w: 4.901714002449629e-06       # gyroscope bias random work noise standard deviation.     
+g_norm: 9.794     # gravity magnitude
+
+#loop closure parameters
+loop_closure: 1                    # start loop closure
+load_previous_pose_graph: 0        # load and reuse previous pose graph; load from 'pose_graph_save_path'
+fast_relocalization: 0             # useful in real-time and large project
+pose_graph_save_path: "/home/shaozu/output/pose_graph/" # save and load path
+
+#visualization parameters
+save_image: 1                   # save image in pose graph for visualization prupose; you can close this function by setting 0 
+visualize_imu_forward: 0        # output imu forward propogation to achieve low latency and high frequence results
+visualize_camera_size: 0.4      # size of camera marker in RVIZ
+
+#unsynchronization parameters
+estimate_td: 0                      # online estimate time offset between camera and imu
+td: 0.0                             # initial value of time offset. unit: s. readed image clock + td = real image clock (IMU clock)
+
+use_marvel: 0
+marvel_noise: 0.0
+
+gt_enable: 0
+estimate_gt_td: 0
+gt_td: 0.0
+gt_trans: 0
+gt_trans_sim: 0
+gt_skip_factor: 4              # -1 no skip
+
+low_exposure: 0
+low_exposure_alpha: 2
+low_exposure_beta: 0
+add_image_noise: 0
+image_noise_mean: 0
+image_noise_std: 0
