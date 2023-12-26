@@ -138,7 +138,8 @@ Our ground truth trajectories were generated within a survey-grade 3D map. With 
 ## State-Of-The-Art Evaluation
 We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3)), visual-inertial ([ORB-SLAM3](https://github.com/UZ-SLAMLab/ORB_SLAM3), [VINS-Mono](https://github.com/HKUST-Aerial-Robotics/VINS-Mono)), LiDAR ([LOAM](https://github.com/HKUST-Aerial-Robotics/A-LOAM)), LiDAR-inertial ([Fast-LIO2](https://github.com/hku-mars/FAST_LIO)), and visual-LiDAR-inertial fusion ([LVI-SAM](https://github.com/TixiaoShan/LVI-SAM), [R3LIVE](https://github.com/hku-mars/r3live)) systems on the above 7 sample sequences, check our [Leaderboard](./leaderboard/) for detail results.
 
-<!-- <table>
+<!-- delete -->
+<table>
     <tr> <!-- 第1行数据 -->
         <td style="text-align:center"> Sequence </td>  <!-- 第1列 -->
         <td style="text-align:center" colspan="2"> 1005-00 </td> <!-- 第2列 合并了 2 列 -->
@@ -285,7 +286,8 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
         <td style="text-align:center"> 2.779 </td>  <!-- 第14列 -->
         <td style="text-align:center"> 1.318 </td>  <!-- 第15列 -->
     </tr>
-</table> -->
+</table>
+<!-- delete -->
 
 <!-- Method/Metric|1005-00|1005-01|1005-07|1006-01|1008-03|1018-00|1018-13
 :--:|:--:|:--:|:--:|:--:|:--:|:--:|:--: -->
