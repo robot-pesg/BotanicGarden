@@ -1,10 +1,10 @@
 #Accelerometer
-accelerometer_noise_density: 0.0016744851413197843 
-accelerometer_random_walk: 6.244967184390112e-05 
+accelerometer_noise_density: 0.0018013617645317311 
+accelerometer_random_walk: 3.983572430107521e-05 
 
 #Gyroscope
-gyroscope_noise_density: 0.0002495875336978279 
-gyroscope_random_walk: 4.901714002449629e-06 
+gyroscope_noise_density: 0.00022390403779667527 
+gyroscope_random_walk: 2.992592996482247e-06 
 
 rostopic: '/livox/imu' #Make sure this is correct
 update_rate: 200.0 #Make sure this is correct
