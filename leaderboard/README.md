@@ -1,5 +1,7 @@
 # Leaderborad
 
+This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 short to long sequences, including 1005-00, 1005-01, 1005-07, 1006-01, 1008-03, 1018-00, and 1018-13. RPE can make sense to serve as an invariant metric to trajectory length as it calculates error over fixed-length segments (100 meters) to avoid the impact of distance and accumulated errors.
+
 <table>
     <!-- <tr>
         <th colspan="7">
