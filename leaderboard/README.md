@@ -149,3 +149,77 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
         <td style="text-align:center"> 1.318 </td>  <!-- 第15列 -->
     </tr>
 </table>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="7">
+                1005-00
+            </td>
+        </tr>
+        <tr>
+            <th>Method</th>
+            <th>Setting</th>
+            <th>Code</th>
+            <th>APE</th>
+            <th>ATE</th>
+            <th>Runtime</th>
+            <th>Environment</th>
+        </tr>
+        <tr>
+            <td>Fast-LIO2</td>
+            <td>LiDAR-Inertial</td>
+            <td>[Code](https://github.com/hku-mars/FAST_LIO)</td>
+            <td>1.827%</td>
+            <td>2.305m</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <ul>
+                    <li>Xu W, Cai Y, He D, et al.: <i>Fast-lio2: Fast direct lidar-inertial odometry.</i> IEEE Transactions on Robotics 2022.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>LVI-SAM</td>
+            <td>Visual-LiDAR-Inertial</td>
+            <td>[Code](https://github.com/TixiaoShan/LVI-SAM)</td>
+            <td>1.899%</td>
+            <td>2.774</td>
+            <td>--</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <ul>
+                    <li>Shan T, Englot B, Ratti C, et al.: <i>Lvi-sam: Tightly-coupled lidar-visual-inertial odometry via smoothing and mapping.</i> IEEE International Conference on Robotics and Automation (ICRA) 2021.</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
