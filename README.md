@@ -1,5 +1,5 @@
 # BotanicGarden Dataset
-## A high-quality and large-scale robot navigation dataset in challenging natural environments
+## A high-quality dataset for robot navigation in unstructured natural environments
 
 ### Authors: 
 [Yuanzhi Liu](https://github.com/lyzrose), [Yujia Fu](https://github.com/yayafu666)†, [Minghui Qin](https://github.com/SJTU-qin)†, [Yufeng Xu](https://github.com/feng15423)†, [Baoxin Xu](https://github.com/xbx1), et al. († Contributed equally)
@@ -13,7 +13,7 @@
 </div>
 
 ## Abstract: 
-The rapid developments of mobile robotics and autonomous navigation over the years are largely empowered by public datasets for testing and upgradation, such as SLAM and localization tasks. Impressive demos and benchmark results have arisen, indicating the establishment of a mature technical framework. However, from the real-world deployments point of view, there are still critical defects of robustness in challenging environments, especially in large-scale, GNSS-denied, textural-monotonous, and unstructured scenarios. To meet the urgent validation demands in such scope, we build a novel challenging robot navigation dataset in a large botanic garden of more than 48000m2. Comprehensive sensors are employed, including high-res/rate stereo Gray&RGB cameras, rotational and forward 3D LiDARs, and low-cost and industrial-grade IMUs, all of which are well calibrated and hardware-synchronized. An all-terrain wheeled robot is configured to mount the sensor suite and providing odometry data. A total of 33 long and short sequences of 2.3 million images are collected, covering scenes of thick woods, riversides, narrow paths, bridges, and grasslands that rarely appeared in previous resources. Excitedly, both highly-accurate ego-motions and 3D map ground truth are provided, along with fine-annotated vision semantics. Our goal is to contribute a high-quality dataset to advance robot navigation and sensor fusion research to a higher level.
+The rapid developments of mobile robotics and autonomous navigation over the years are largely empowered by public datasets for testing and upgrading, such as sensor odometry and SLAM tasks. Impressive demos and benchmark scores have arisen, which may suggest the maturity of existing navigation techniques. However, these results are primarily based on moderate structured scenario testing. When transitioning to challenging unstructured environments, especially in GNSS-denied, texture-monotonous, and dense-vegetated natural fields, their performance can hardly sustain at a high level and requires further validation and improvement. To bridge this gap, we build a novel robot navigation dataset in a luxuriant botanic garden of more than 48000m2. Comprehensive sensors are used, including Gray and RGB stereo cameras, spinning and MEMS 3D LiDARs, and low-cost and industrial-grade IMUs, all of which are well calibrated and hardware-synchronized. An all-terrain wheeled robot is employed for data collection, traversing through thick woods, riversides, narrow trails, bridges, and grasslands, which are scarce in previous resources. This yields 33 short and long sequences, forming 17.1km trajectories in total. Excitedly, both highly-accurate ego-motions and 3D map ground truth are provided, along with fine-annotated vision semantics. We firmly believe that our dataset can advance robot navigation and sensor fusion research to a higher level.
 
 <div align="left">
 <img src="./pics/photo_pairs/cam/c_01.jpg" alt="photo" width="18%" />
@@ -34,9 +34,9 @@ The rapid developments of mobile robotics and autonomous navigation over the yea
 </div>
 
 ## Main Contributions: 
-- We build a novel multi-sensory dataset in a large botanic garden, with a total of 33 long &short sequences and ~2.3 million images which contain diverse challenging natural factors that rarely seen in previous resources.
-- We employed comprehensive sensors, including high-res and high-rate stereo Gray&RGB cameras, rotational and forward-facing 3D LiDARs, and low-cost and industrial-grade IMUs, supporting a wide range of applications. By elaborate development of the integrated system, we have achieved synchronization of sub-us precision. Both the sensors and sync-quality are at top-level of this field.
-- We provide both highly-accurate 3D map and trajectories ground truth by dedicated surveying works and advanced map-based localization algorithm. We also provide dense vision semantics labeled by experienced annotators. This is the first robot navigation dataset that provides such all-rounded and high-quality reference data.
+- We build a novel multi-sensory dataset in an over 48000m2 botanic garden with 33 long and short sequences and 17.1km trajectories in total, containing dense and diverse natural elements that are scarce in previous resources.
+- We employed comprehensive sensors, including high-res and high-rate stereo gray and RGB cameras, spinning and MEMS 3D LiDARs, and low-cost and industrial-grade IMUs, supporting a wide range of applications. By elaborate development of the system, we have achieved highly-precise hardware-synchronization. Both the sensors availability and sync-quality are at top-level of this field.
+- We provide both highly-precise 3D map and trajectories ground truth by dedicated surveying works and advanced map-based localization algorithm. We also provide dense vision semantics labeled by experienced annotators. This is the first field robot navigation dataset that provides such all-sided and high-quality reference data.
 
 <div align="left">
 <img src="./gifs/sequences/1005_00.gif" alt="video" width="80%" />
@@ -219,8 +219,8 @@ The preprint version of our paper is already available on [arXiv](https://arxiv.
 
 ```
 @article{liu2023botanicgarden,
-  title={BotanicGarden: A high-quality and large-scale robot navigation dataset in challenging natural environments},
-  author={Liu, Yuanzhi and Fu, Yujia and Qin, Minghui and Xu, Yufeng and Xu, Baoxin and Chen, Fengdong and Goossens, Bart and Yu, Hongwei and Liu, Chun and Chen, Long and Tao, Wei and Zhao, Hui},
+  title={BotanicGarden: A high-quality dataset for robot navigation in unstructured natural environments},
+  author={Liu, Yuanzhi and Fu, Yujia and Qin, Minghui and Xu, Yufeng and Xu, Baoxin and Chen, Fengdong and Goossens, Bart and Sun, Poly Z.H. and Yu, Hongwei and Liu, Chun and Chen, Long and Tao, Wei and Zhao, Hui},
   journal={arXiv preprint arXiv:2306.14137},
   year={2023}
 }
