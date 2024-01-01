@@ -29,7 +29,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <td colspan="5">
             <ul>
-                <li>Shan T, Englot B, Ratti C, et al.: <i>Lvi-sam: Tightly-coupled lidar-visual-inertial odometry via smoothing and mapping.</i> IEEE International Conference on Robotics and Automation (ICRA) 2021.</li>
+                <li>Shan T, Englot B, Ratti C, et al.: <i>LVI-SAM: Tightly-coupled lidar-visual-inertial odometry via smoothing and mapping.</i> IEEE International Conference on Robotics and Automation (ICRA) 2021.</li>
             </ul>
         </td>
     </tr>
@@ -77,7 +77,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <td colspan="5">
             <ul>
-                <li>Xu W, Cai Y, He D, et al.: <i>Fast-lio2: Fast direct lidar-inertial odometry.</i> IEEE Transactions on Robotics 2022.</li>
+                <li>Xu W, Cai Y, He D, et al.: <i>Fast-LIO2: Fast direct lidar-inertial odometry.</i> IEEE Transactions on Robotics 2022.</li>
             </ul>
         </td>
     </tr>
@@ -93,7 +93,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <td colspan="5">
             <ul>
-                <li>Qin T, Li P, Shen S.: <i>Vins-mono: A robust and versatile monocular visual-inertial state estimator.</i> IEEE Transactions on Robotics. 2018.</li>
+                <li>Qin T, Li P, Shen S.: <i>VINS-Mono: A robust and versatile monocular visual-inertial state estimator.</i> IEEE Transactions on Robotics. 2018.</li>
             </ul>
         </td>
     </tr>
@@ -109,7 +109,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <td colspan="5">
             <ul>
-                <li>Campos C, Elvira R, Rodríguez J J G, et al.: <i>Orb-slam3: An accurate open-source library for visual, visual–inertial, and multimap slam.</i> IEEE Transactions on Robotics. 2021.</li>
+                <li>Campos C, Elvira R, Rodríguez J J G, et al.: <i>ORB-SLAM3: An accurate open-source library for visual, visual–inertial, and multimap slam.</i> IEEE Transactions on Robotics. 2021.</li>
             </ul>
         </td>
     </tr>
@@ -125,7 +125,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <td colspan="5">
             <ul>
-                <li>Campos C, Elvira R, Rodríguez J J G, et al.: <i>Orb-slam3: An accurate open-source library for visual, visual–inertial, and multimap slam.</i> IEEE Transactions on Robotics. 2021.</li>
+                <li>Campos C, Elvira R, Rodríguez J J G, et al.: <i>ORB-SLAM3: An accurate open-source library for visual, visual–inertial, and multimap slam.</i> IEEE Transactions on Robotics. 2021.</li>
             </ul>
         </td>
     </tr>
