@@ -156,16 +156,16 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
 
 <table>
     <tr>
-        <td colspan="7">
+        <th colspan="7">
             1005-00
-        </td>
+        </th>
     </tr>
     <tr>
         <th>Rank</th>
         <th>Method</th>
         <th>Setting</th>
         <th>Code</th>
-        <th>APE</th>
+        <th>RPE</th>
         <th>ATE</th>
         <th>Runtime</th>
     </tr>
@@ -174,8 +174,8 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
         <td>Fast-LIO2</td>
         <td>LiDAR-Inertial</td>
         <td><a href="https://github.com/hku-mars/FAST_LIO">Code</a></td>
-        <td>1.827%</td>
-        <td>2.305m</td>
+        <td>1.827 %</td>
+        <td>2.305 [m]</td>
         <td>--</td>
     </tr>
     <tr>
@@ -190,8 +190,8 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
         <td>LVI-SAM</td>
         <td>Visual-LiDAR-Inertial</td>
         <td><a href="https://github.com/TixiaoShan/LVI-SAM">Code</a></td>
-        <td>1.899%</td>
-        <td>2.774</td>
+        <td>1.899 %</td>
+        <td>2.774 [m]</td>
         <td>--</td>
     </tr>
     <tr>
