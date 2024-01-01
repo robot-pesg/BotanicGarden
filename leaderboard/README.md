@@ -201,4 +201,20 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
             </ul>
         </td>
     </tr>
+    <tr>
+        <th>3</th>
+        <th>R3LIVE</th>
+        <th>Visual-LiDAR-Inertial</th>
+        <th><a href="https://github.com/hku-mars/r3live">Code</a></th>
+        <th>1.924 %</th>
+        <th>3.300 [m]</th>
+        <th>--</th>
+    </tr>
+    <tr>
+        <td colspan="7">
+            <ul>
+                <li>Lin J, Zhang F.: <i>R3LIVE: A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package.</i> IEEE International Conference on Robotics and Automation (ICRA) 2022.</li>
+            </ul>
+        </td>
+    </tr>
 </table>
