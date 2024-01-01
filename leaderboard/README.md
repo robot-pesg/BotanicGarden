@@ -217,4 +217,68 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
             </ul>
         </td>
     </tr>
+    <tr>
+        <th>4</th>
+        <th>LOAM</th>
+        <th>Visual-LiDAR-Inertial</th>
+        <th><a href="https://github.com/HKUST-Aerial-Robotics/A-LOAM">Code</a></th>
+        <th>1.993 %</th>
+        <th>3.744 [m]</th>
+        <th>--</th>
+    </tr>
+    <tr>
+        <td colspan="7">
+            <ul>
+                <li>Zhang J, Singh S.: <i>LOAM: Lidar odometry and mapping in real-time.</i> Robotics: Science and systems. (RSS) 2014.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>5</th>
+        <th>VINS-Mono</th>
+        <th>Visual(mono)-Inertial</th>
+        <th><a href="https://github.com/HKUST-Aerial-Robotics/VINS-Mono">Code</a></th>
+        <th>3.403 %</th>
+        <th>8.617 [m]</th>
+        <th>--</th>
+    </tr>
+    <tr>
+        <td colspan="7">
+            <ul>
+                <li>Qin T, Li P, Shen S.: <i>Vins-mono: A robust and versatile monocular visual-inertial state estimator.</i> IEEE Transactions on Robotics. 2018.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>6</th>
+        <th>ORB-SLAM3</th>
+        <th>Visual(stereo)-Inertial</th>
+        <th><a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">Code</a></th>
+        <th>4.386 %</th>
+        <th>5.511 [m]</th>
+        <th>--</th>
+    </tr>
+    <tr>
+        <td colspan="7">
+            <ul>
+                <li>Campos C, Elvira R, Rodríguez J J G, et al.: <i>Orb-slam3: An accurate open-source library for visual, visual–inertial, and multimap slam.</i> IEEE Transactions on Robotics. 2021.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>7</th>
+        <th>ORB-SLAM3</th>
+        <th>Visual(stereo)</th>
+        <th><a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">Code</a></th>
+        <th>4.386 %</th>
+        <th>5.511 [m]</th>
+        <th>--</th>
+    </tr>
+    <tr>
+        <td colspan="7">
+            <ul>
+                <li>Campos C, Elvira R, Rodríguez J J G, et al.: <i>Orb-slam3: An accurate open-source library for visual, visual–inertial, and multimap slam.</i> IEEE Transactions on Robotics. 2021.</li>
+            </ul>
+        </td>
+    </tr>
 </table>
