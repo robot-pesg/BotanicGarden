@@ -236,7 +236,7 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
     <tr>
         <th>5</th>
         <th>VINS-Mono</th>
-        <th>Visual(mono)-Inertial</th>
+        <th>Visual-Inertial</th>
         <th><a href="https://github.com/HKUST-Aerial-Robotics/VINS-Mono">Code</a></th>
         <th>3.643 %</th>
         <!-- <th>8.617 [m]</th> -->
