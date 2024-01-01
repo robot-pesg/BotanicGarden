@@ -251,8 +251,8 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
     </tr>
     <tr>
         <th>6</th>
-        <th>ORB-SLAM3</th>
-        <th>Visual(stereo)-Inertial</th>
+        <th>ORB-SLAM3-SI</th>
+        <th>Visual-Inertial</th>
         <th><a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">Code</a></th>
         <th>4.386 %</th>
         <th>5.511 [m]</th>
@@ -267,8 +267,8 @@ We have tested the performance of visual ([ORB-SLAM3](https://github.com/UZ-SLAM
     </tr>
     <tr>
         <th>7</th>
-        <th>ORB-SLAM3</th>
-        <th>Visual(stereo)</th>
+        <th>ORB-SLAM3-S</th>
+        <th>Visual-Only</th>
         <th><a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">Code</a></th>
         <th>4.386 %</th>
         <th>5.511 [m]</th>
