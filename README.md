@@ -122,11 +122,12 @@ ROS Topic|Message Type|Description
 /velodyne_points|sensor_msgs/PointCloud2|Velodyne VLP16 LiDAR
 /livox/lidar|livox_ros_driver/CustomMsg|Livox AVIA LiDAR
 /imu/data|sensor_msgs/Imu|Xsens IMU
-/livox/imu|sensor_msgs/Imu|Livox BMI088 IMU
+/livox/imu<sup>3</sup>|sensor_msgs/Imu|Livox BMI088 IMU
 /gt_poses|geometry_msgs/PoseStamped|Ground truth poses
 
 <sup>1</sup>Imagezip and no-vision rosbag size.
 <sup>2</sup>The rosbags contain downsampled vision data (960x600@10Hz) to ease the downloads. Full res&rate frames (1920x1200@40Hz) are available in raw imagezips.
+<sup>3</sup>The accelerometer of the BMI088 IMU has a gravity scale of 1. To use this IMU, multiply the accelerometer data by 9.8 to obtain acceleration in meters per second squared (m/s²). However, some algorithms designed specifically for Livox LiDAR may not require this multiplication (e.g., Fast-LIO2 and R3LIVE).
 
 ## Ground Truth Trajectories
 Our ground truth trajectories were generated within a survey-grade 3D map. With our dedicated survey works, the map was with ~1cm precision in the global coordinates, ensuring a cm-level precision for robot localization. All the 33 trajectories can be found in [GT_traj](./GT_traj/) folder.
