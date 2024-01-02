@@ -1,3 +1,7 @@
+# The raw calibrated imu intrinsics only take stationary properties into account, to conduct 
+# real-world testing, some other processes will also happen, including temperature drift, motional effects, etc.
+# So we recommend to increase the white_noise to several to 10x (or larger) to relax these errors.
+
 #Accelerometer
 accelerometer_noise_density: 0.0005 
 accelerometer_random_walk: 0.00002 
