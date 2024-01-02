@@ -45,11 +45,15 @@ max_solver_time: 0.04  # max solver itration time (ms), to guarantee real time o
 max_num_iterations: 8  # max solver itrations, to guarantee real time origin 8
 keyframe_parallax: 10.0 # keyframe selection threshold (pixel)
 
-#imu parameters       The more accurate parameters you provide, the better performance
-acc_n: 0.001          # accelerometer measurement noise standard deviation. 
-gyr_n: 0.0002         # gyroscope measurement noise standard deviation.     
-acc_w: 0.00002        # accelerometer bias random work noise standard deviation.  
-gyr_w: 0.000005       # gyroscope bias random work noise standard deviation.     
+#imu parameters       
+# The raw calibrated imu intrinsics only take stationary properties into account, to conduct 
+# real-world testing, some other processes will also happen, including temperature drift, motional effects, etc.
+# So we recommend to increase the white_noise to several to 10x to relax these errors.
+# Directly try the following params that we have successfully tested.
+acc_n: 0.01          # accelerometer measurement noise standard deviation. 
+gyr_n: 0.002         # gyroscope measurement noise standard deviation.     
+acc_w: 0.00008        # accelerometer bias random work noise standard deviation.  
+gyr_w: 0.00003       # gyroscope bias random work noise standard deviation.
 g_norm: 9.81007     # gravity magnitude
 
 #unsynchronization parameters
