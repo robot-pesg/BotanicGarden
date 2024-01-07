@@ -20,7 +20,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <th>1</th>
         <th>LVI-SAM</th>
-        <th>Visual-LiDAR-Inertial</th>
+        <th>LiDAR-Visual-Inertial</th>
         <th><a href="https://github.com/TixiaoShan/LVI-SAM">Code</a></th>
         <th>2.170 %</th>
         <!-- <th>2.774 [m]</th> -->
@@ -36,7 +36,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <th>2</th>
         <th>R3LIVE</th>
-        <th>Visual-LiDAR-Inertial</th>
+        <th>(mems)LiDAR-Visual-Inertial</th>
         <th><a href="https://github.com/hku-mars/r3live">Code</a></th>
         <th>2.220 %</th>
         <!-- <th>3.300 [m]</th> -->
@@ -52,7 +52,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <th>3</th>
         <th>LOAM</th>
-        <th>Visual-LiDAR-Inertial</th>
+        <th>LiDAR</th>
         <th><a href="https://github.com/HKUST-Aerial-Robotics/A-LOAM">Code</a></th>
         <th>2.297 %</th>
         <!-- <th>3.744 [m]</th> -->
@@ -68,7 +68,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <th>4</th>
         <th>Fast-LIO2</th>
-        <th>LiDAR-Inertial</th>
+        <th>(mems)LiDAR-Inertial</th>
         <th><a href="https://github.com/hku-mars/FAST_LIO">Code</a></th>
         <th>2.908 %</th>
         <!-- <th>2.305 [m]</th> -->
@@ -84,7 +84,7 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     <tr>
         <th>5</th>
         <th>VINS-Mono</th>
-        <th>Visual-Inertial</th>
+        <th>(mono)Visual-Inertial</th>
         <th><a href="https://github.com/HKUST-Aerial-Robotics/VINS-Mono">Code</a></th>
         <th>3.643 %</th>
         <!-- <th>8.617 [m]</th> -->
@@ -99,8 +99,8 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     </tr>
     <tr>
         <th>6</th>
-        <th>ORB-SLAM3-SI</th>
-        <th>Visual-Inertial</th>
+        <th>ORB-SLAM3</th>
+        <th>(bino)Visual-Inertial</th>
         <th><a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">Code</a></th>
         <th>4.272 %</th>
         <!-- <th>5.511 [m]</th> -->
@@ -115,8 +115,8 @@ This benchmark is calculated by averaging the Relative Pose Error (RPE) of 7 sam
     </tr>
     <tr>
         <th>7</th>
-        <th>ORB-SLAM3-S</th>
-        <th>Visual-Only</th>
+        <th>ORB-SLAM3</th>
+        <th>(bino)Visual-Only</th>
         <th><a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">Code</a></th>
         <th>4.880 %</th>
         <!-- <th>5.511 [m]</th> -->
