@@ -217,14 +217,17 @@ Dec 31, 2023         &emsp; Update Leaderboard and invite more algorithms to joi
 This dataset is provided for academic purposes. If you meet some technical problems, please open an issue or contact <Yuanzhi Liu: lyzrose@sjtu.edu.cn> and <Yufeng Xu: xuyufeng@sjtu.edu.cn>.
 
 ## Citation
-The preprint version of our paper is already available on [arXiv](https://arxiv.org/abs/2306.14137). If our data/code/tool/knowledge helps your research, please cite: <br />
+If our dataset helps your research, please cite: <br />
 
 
 ```
-@article{liu2023botanicgarden,
-  title={BotanicGarden: A high-quality dataset for robot navigation in unstructured natural environments},
+@ARTICLE{liu2023botanicgarden,
   author={Liu, Yuanzhi and Fu, Yujia and Qin, Minghui and Xu, Yufeng and Xu, Baoxin and Chen, Fengdong and Goossens, Bart and Sun, Poly Z.H. and Yu, Hongwei and Liu, Chun and Chen, Long and Tao, Wei and Zhao, Hui},
-  journal={arXiv preprint arXiv:2306.14137},
-  year={2023}
-}
+  journal={IEEE Robotics and Automation Letters}, 
+  title={BotanicGarden: A High-Quality Dataset for Robot Navigation in Unstructured Natural Environments}, 
+  year={2024},
+  volume={9},
+  number={3},
+  pages={2798-2805},
+  doi={10.1109/LRA.2024.3359548}}
 ```
