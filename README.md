@@ -104,10 +104,10 @@ imagezip|[onedrive](https://goldensen-my.sharepoint.com/:f:/g/personal/yuanzhi_l
 
 Stat/Sequence|1005-05|1006-03|1008-01
 :--:|:--:|:--:|:--:
-Size/GB|31.4|29.6|34.4
+Size/GB|31.4/6.2|29.6/5.9|34.4/6.7
 VLIO-rosbag|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgsZGQjHQYLu9U_twAQ?e=AacAQB) [BD](https://pan.baidu.com/s/1Z-qmjMVUOxzqky5O9Ylc_g?pwd=sjtu)|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgsZFO_TRBT8Evie7lA?e=EY42t8) [BD](https://pan.baidu.com/s/19pEMvx2Ve9DZUl8FEBRiPQ?pwd=sjtu)|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgsZHnKvMe5kkkfLARQ?e=1TeTkv) [BD](https://pan.baidu.com/s/1GNCgCB3_3b63fqTNz7KiIA?pwd=sjtu)
 LIO-rosbag|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgsYcf4FkC2G3ci7eFw?e=qEpvZd) [BD](https://pan.baidu.com/s/1lVj_brGCbaOnICV-zbDm3w?pwd=sjtu)|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgsYC0Ado28Vv5ASFxg?e=75OFQG) [BD](https://pan.baidu.com/s/1n9Q_XoOHUkHGhdQmKZetMA?pwd=sjtu)|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgsYGhAQn1YBL6vznzw?e=dC2lJy) [BD](https://pan.baidu.com/s/1TQcDChn24rSP-KlV_9aa2A?pwd=sjtu)
-GT-pose|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgscjX2jCHzCQ-6A1iw?e=rbi0SR)|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgscpEOlEbYUqt-DFlA?e=R2WaCV)|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgscvC3lS5v8U_Gy61w?e=vI4Sqg)
+GT-pose|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgscjX2jCHzCQ-6A1iw?e=rbi0SR) [BD](https://pan.baidu.com/s/1y4OH8CY3HTqr75ymjx_nNQ?pwd=sjtu)|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgscpEOlEbYUqt-DFlA?e=R2WaCV) [BD](https://pan.baidu.com/s/1EvuM7u-_vjbJr_32mdFNtw?pwd=sjtu)|[OD](https://1drv.ms/u/s!AhA4pMEcWxdkgscvC3lS5v8U_Gy61w?e=vI4Sqg) [BD](https://pan.baidu.com/s/1V_0oA_t0GIgug6EtKkOgAw?pwd=sjtu)
 
 The rostopics and corresponding message types are listed below:
 <!-- ROS Topic|Message Type|Description
